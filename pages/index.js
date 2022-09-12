@@ -36,7 +36,7 @@ export default function Home() {
    <>
    <Head>
    <title>
-          Microsoft Dynamics 365 Partner UK, London | Dynamics Square
+          Microsoft Dynamics 365 Partner Canada| Dynamics Square
         </title>
         <meta
           name="description"
