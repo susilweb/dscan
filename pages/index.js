@@ -40,59 +40,22 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Dynamics Square is UK&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
+          content="Dynamics Square is CA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
         />
-        <meta
-          name="robots"
-          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
-        />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta
-          property="og:image"
-          content="/img/Microsoft Partner black.png"
-        />
-        <meta
-          property="og:image:secure_url"
-          content="/img/five-500.png"
-        />
-        <meta property="og:image:width" content="500" />
-        <meta property="og:image:height" content="500" />
-        <meta property="og:image:alt" content="DS Favicon" />
-        <meta property="og:image:type" content="image/png" />
+        <link rel="canonical" href="https://www.dynamicssquare.ca/" />
+
+
+
+        <meta property="og:title" content="Dynamics Square is" />
+        <meta name="og:description" content="Dynamics Square is" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta
-          name="twitter:image"
-          content="/img/five-500.png"
-        />
-        <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content="admin" />
-        <meta name="twitter:label2" content="Time to read" />
-        <meta name="twitter:data2" content="5 minutes" />
-        <meta name="google-site-verification" content="UA-76870474-2" />
-        <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
+
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Partner Canada| Dynamics Square" />
+        <meta name="twitter:description" content="Dynamics Square is CA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
+
         <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -152,7 +115,7 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <a href="/products/dynamics-365-business-central/">
                         <img
-                          src="/img/business-center-logo.svg"
+                          src=" "
                           alt="business-center-logo"
                         />
                         <span>
