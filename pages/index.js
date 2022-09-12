@@ -7,31 +7,31 @@ import "swiper/css/pagination";
 import { Pagination,Autoplay,FreeMode } from "swiper";
 
 export default function Home() {
-  const addJsonLd = () => {
-    return {
-      _html: `
-            @context": "http://schema.org",
-            "@type": "Person",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Seattle",
-              addressRegion: "WA",
-              postalCode: "98052",
-              streetAddress: "N. Whitworth"
-            },
-            colleague: [
-              "http://www.dynamicssquare.ca/",
-              "http://www.dynamicssquare.ca/"
-            ],
-            email: "mailto:jane-doe@xyz.edu",
-            image: "janedoe.jpg",
-            jobTitle: "Professor",
-            name: "Jane Doe",
-            telephone: "(425) 123-4567",
-            url: "http://www.dynamicssquare.ca/"
-      `
-    }
-  }
+  // const addJsonLd = () => {
+  //   return {
+  //     _html: `
+  //           @context": "http://schema.org",
+  //           "@type": "Person",
+  //           address: {
+  //             "@type": "PostalAddress",
+  //             addressLocality: "Seattle",
+  //             addressRegion: "WA",
+  //             postalCode: "98052",
+  //             streetAddress: "N. Whitworth"
+  //           },
+  //           colleague: [
+  //             "http://www.dynamicssquare.ca/",
+  //             "http://www.dynamicssquare.ca/"
+  //           ],
+  //           email: "mailto:jane-doe@xyz.edu",
+  //           image: "janedoe.jpg",
+  //           jobTitle: "Professor",
+  //           name: "Jane Doe",
+  //           telephone: "(425) 123-4567",
+  //           url: "http://www.dynamicssquare.ca/"
+  //     `
+  //   }
+  // }
   return (
    <>
    <Head>
@@ -106,15 +106,15 @@ export default function Home() {
                   streetAddress: "20341 Whitworth Institute 405 N. Whitworth"
                 },
                 colleague: [
-                  "http://www.xyz.edu/students/alicejones.html",
-                  "http://www.xyz.edu/students/bobsmith.html"
+                  "http://www.dynamicssquare.ca/",
+                  "http://www.dynamicssquare.ca/"
                 ],
                 email: "mailto:jane-doe@xyz.edu",
                 image: "janedoe.jpg",
                 jobTitle: "Professor",
                 name: "Jane Doe",
                 telephone: "(425) 123-4567",
-                url: "http://www.janedoe.com"
+                url: "http://www.dynamicssquare.ca/"
               })
            }}
       />
