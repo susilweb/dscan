@@ -17,7 +17,7 @@ export default function Home() {
               addressLocality: "Seattle",
               addressRegion: "WA",
               postalCode: "98052",
-              streetAddress: "20341 Whitworth Institute 405 N. Whitworth"
+              streetAddress: "N. Whitworth"
             },
             colleague: [
               "http://www.dynamicssquare.ca/",
