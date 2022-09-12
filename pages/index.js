@@ -99,7 +99,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "Corporation",
           "name": "Dynamics Square",
-          "alternateName": "Dynamics Square Canada",
+          "alternateName": "Dynamics Square Canada Testing",
           "url": "https://www.dynamicssquare.ca/",
           "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
           "sameAs": "https://www.facebook.com/dynamicssquareusa"
