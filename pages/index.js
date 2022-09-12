@@ -96,25 +96,13 @@ export default function Home() {
         <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "Person",
-                address: {
-                  "@type": "PostalAddress",
-                  addressLocality: "Seattle",
-                  addressRegion: "WA",
-                  postalCode: "98052",
-                  streetAddress: "20341 Whitworth Institute 405 N. Whitworth"
-                },
-                colleague: [
-                  "http://www.dynamicssquare.ca/",
-                  "http://www.dynamicssquare.ca/"
-                ],
-                email: "mailto:jane-doe@xyz.edu",
-                image: "janedoe.jpg",
-                jobTitle: "Professor",
-                name: "Jane Doe",
-                telephone: "(425) 123-4567",
-                url: "http://www.dynamicssquare.ca/"
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "Dynamics Square",
+          "alternateName": "Dynamics Square Canada",
+          "url": "https://www.dynamicssquare.ca/",
+          "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
+          "sameAs": "https://www.facebook.com/dynamicssquareusa"
               })
            }}
       />
