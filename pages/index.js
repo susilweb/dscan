@@ -48,7 +48,7 @@ export default function Home() {
 
         <meta property="og:title" content="Dynamics Square is" />
         <meta name="og:description" content="Dynamics Square is" />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/img/about.jpg" />
         <meta property="og:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
 
@@ -115,7 +115,7 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <a href="/products/dynamics-365-business-central/">
                         <img
-                          src=" "
+                          src="/img/business-center-logo.svg"
                           alt="business-center-logo"
                         />
                         <span>
