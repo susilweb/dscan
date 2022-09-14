@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
-  const [open, setsOpen] = useState(false);
+  // const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
