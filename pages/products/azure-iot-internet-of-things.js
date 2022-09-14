@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 const AzureIoT = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -21,13 +21,13 @@ const AzureIoT = () => {
         <meta property="og:type" content="article" />
         
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="2lqX8SFsO-A"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">

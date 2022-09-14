@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -26,13 +26,13 @@ const MicrosoftCloudForNonprofit = () => {
         <meta property="og:type" content="article" />
         
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="k9ZCzwj4FV8&t=2s"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination,Autoplay,FreeMode } from "swiper";
-import ModalVideo from "react-modal-video";
+
 const BusinessCentral = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -25,13 +25,13 @@ const BusinessCentral = () => {
           href="https://www.dynamicssquare.ca/products/dynamics-365-business-central/"
         />
         </Head>
-         <ModalVideo
+         {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="yCJ7C1KS-Jw"
         onClose={() => setOpen(false)}
-      />
+      /> */}
         <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row g-5">
