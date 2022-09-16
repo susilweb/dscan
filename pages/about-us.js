@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import { Swiper, SwiperSlide } from "swiper/react";
+import React, { useEffect,useState } from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,15 +11,12 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const AboutUs = () => {
-  // const reloadCount = sessionStorage.getItem("reloadCount");
-  // if (reloadCount < 2) {
-  //   sessionStorage.setItem("reloadCount", String(reloadCount + 1));
-  //   //console.log(reloadCount);
-  //   window.location.reload();
-  // } else {
-  //   sessionStorage.removeItem("reloadCount");
-  //   console.log(reloadCount);
-  // }
+  const [isSSR, setIsSSR] = useState(true);
+  useEffect(() => {
+    setIsSSR(false);
+  }, []);
+
+
   return (
     <>
       <Head>
@@ -32,7 +30,7 @@ const AboutUs = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/about-us/"
+          href="https://www.dynamicssquare.ca/about-us/"
         />
         <meta property="og:locale" content="en_US" />
        
@@ -55,7 +53,7 @@ const AboutUs = () => {
           </div>
         </section>
 
-        <section className="about-intr">
+        { !isSSR && <section className="about-intr">
           <div className="container">
             <div className="col-lg-12">
               <div className="about-intr-wrpper">
@@ -70,7 +68,7 @@ const AboutUs = () => {
                   <p>
                   We are one of the leading <a href="/">Microsoft Dynamics Partner</a>, and IT consulting service companies run by a passionate, professional, and highly experienced team for <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a>  Business Solutions. <p>We help businesses to innovate and grow by streamlining their finance, operations, customer service, and increasing their productivity with Microsoft Business Solutions (Dynamics 365, <a href="/products/microsoft-dynamics-nav/">NAV</a> & AX), SharePoint, <a href="/products/microsoft-power-bi/">Power BI solutions</a> .
 
-</p> <p>Our team consists the experience of hundreds of successful implementations, upgrades, and support with experience across the industries. Our deep product knowledge helps us to deliver the best solution to fit our customer’s business needs.
+</p> <p>Our team consists the experience of hundreds of successful implementations, upgrades, and support with experience across the industries. Our deep product knowledge helps us to deliver the best solution to fit our customer/s business needs.
 
 </p>
 
@@ -80,8 +78,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section className="counter-sec">
+        </section>}
+        { !isSSR && <section className="counter-sec">
           <div className="container">
             <div className="row inner-side-pad">
               <div className="col-lg-4">
@@ -104,9 +102,9 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section>}
 
-        <section className="mission">
+        { !isSSR && <section className="mission">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -149,9 +147,9 @@ Become a respected name in the industry by providing a worthy space for people w
               </div>
             </div>
           </div>
-        </section>
+        </section>}
 
-        <section>
+        { !isSSR && <section>
           <div className="container">
             <header className="section-header">
               <h2>Milestones We Achieved</h2>
@@ -234,7 +232,7 @@ Become a respected name in the industry by providing a worthy space for people w
               </div>
             </div>
           </div>
-        </section>
+        </section>}
 
         <section className="domain-expertise">
           <div className="container">

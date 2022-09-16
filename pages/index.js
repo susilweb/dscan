@@ -75,10 +75,10 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6  align-self-center">
               <h1>
-              We Empower Businesses with Microsoft Cloud Technology 
+              Empowering Businesses with Cloud Technology
               </h1>
               <p>
-              Dynamics Square is passionate about solving your business challenges by implementing Microsoft cloud technology to build a resilient and sustainable future. Participate in our digital transformation journey to help your business succeed. 
+              Dynamics Square is Canada's leading Microsoft Gold Partner, trusted by 250+ clients worldwide. We're proactively delivering cloud-based ERP and CRM solutions, training, consulting and support from a dedicated team of 135+ highly skilled Microsoft consultants to help you take advantage of business process automation and make the most of your investment. 
               </p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
@@ -276,9 +276,7 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Your Trusted & Dedicated Microsoft Dynamics Partner in Growth</h2>
-                <p>
-                We are here in Canada to help you smoothly implement cloud-based Microsoft ERP and CRM solutions, automate business processes, and accelerate growth. Build a solid foundation and put aside the guesswork with a partner you can trust. Create tomorrow's business ecosystem with leading technologies like Microsoft Cloud, Azure IoT, IIoT, and Power Platforms. 
-                </p>
+                <p>Explore business apps to digitally transform your business processes.</p>
               </header>
             </div>
           </div>
@@ -296,9 +294,7 @@ export default function Home() {
                     Dynamics 365 <br /> Business Central
                   </h3>
                 </div>
-                <p>
-                Connect and automate your finance and supply chain operations, drive customer engagement, unlock productivity and boost your sales with Dynamics 365 Business Central.
-                </p>
+                <p>Connect and automate your finance and supply chain, drive customer engagement, unlock productivity and boost your sales with Dynamics 365 Business Central's strong abilities of analytics, reporting, and visualizations.</p>
                 <a
                   href="/products/dynamics-365-business-central/"
                   className="read-more"
@@ -320,9 +316,7 @@ export default function Home() {
                     Finance
                   </h3>
                 </div>
-                <p>
-                Proactively minimize the investment costs and financial complexity with built-in AI-driven analytics & insights and reporting capabilities with an extensive solution like D365 Finance, a business application from Microsoft to automate all your financial processes.
-                </p>
+                <p>Automate all your financial practices and proactively minimize your investment costs and financial complexity with built-in AI-driven analytics, insights, and reporting capabilities using enterprise-grade Dynamics 365 Finance solution.</p>
                 <a
                   href="/products/microsoft-dynamics-365-finance/"
                   className="read-more"
@@ -345,7 +339,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>
-                Every business strives for operational efficiency and needs a solution to complement it. Automate your entire supply chain practices for smoother flow and real-time efficiency across your organization with our highly customized and integrated business application, Dynamics 365 Supply Chain.
+                Smoothen process flow, get real-time data storage & transfer mechanisms across your organization. Increase operational efficiency by automating your entire supply chain practices with D365 Supply Chain.
                 </p>
                 <a
                   href="/products/dynamics-365-supply-chain-management/"
@@ -373,7 +367,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>
-                Sales are not easy to manage. Bring your sales team, customers, and vendors onto a single, advanced platform, Microsoft Dynamics 365 Sales. With its omnichannel facility, you can seamlessly drive innovation, maximize profit, predict, and manage your sales pipeline with real-time AI-driven insights, and close deals with lightning speed. 
+                Sales are not easy to manage. With D365 Sales' omnichannel facility, you can seamlessly drive innovation, maximize profit, predict, and manage your sales pipeline with real-time AI-driven insights, and close deals with lightning speed.
                 </p>
                 <a
                   href="/products/microsoft-dynamics-365-sales/"
@@ -400,9 +394,7 @@ export default function Home() {
                     Power BI
                   </h3>
                 </div>
-                <p>
-                Running your business without visual insights is like searching for a cat in the dark with no torchlight in hand. Visual insights are the key to growth in today's business world. Streamline all your business processes and continuously monitor them with Power BI's real-time visual insights and key analytics to take decisions in advance, putting life into your sales strategies and productivity.
-                </p>
+                <p>Visual insights are the key to growth in today's business world. Streamline all your business processes and continuously monitor them with Power BI's real-time visual insights and key analytics to take decisions in advance.</p>
                 <a href="/products/microsoft-power-bi/" className="read-more">
                   <span>Learn More...</span>
                 </a>
@@ -425,9 +417,7 @@ export default function Home() {
                     Things
                   </h3>
                 </div>
-                <p>
-                IoT (internet of things) and IIoT (Industrial Internet of Things) are revolutionizing industries and businesses in every sector. Connect all your devices using Azure IoT for smoother data trade. Improve and accelerate data-transfer practices with our integrated enterprise solutions to ensure better productivity.
-                </p>
+                <p>IoT (internet of things) and IIoT (Industrial Internet of Things) are revolutionizing industries and businesses in every sector. Connect all your devices using Azure IoT for smoother data trade and ensure better productivity.</p>
                 <a
                   href="/products/azure-iot-internet-of-things/"
                   className="read-more"
@@ -445,9 +435,7 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Microsoft Cloud for Industries</h2>
-                <p>
-                Take your business to new heights and become an industry leader by implementing powerful Microsoft Business Apps. 
-                </p>
+                <p>Take your business to new heights and become an industry leader by implementing powerful Microsoft Business Apps.</p>
               </header>
             </div>
           </div>
@@ -462,13 +450,11 @@ export default function Home() {
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
-                  <h3>Startup</h3>
+                  <h3>Startups</h3>
                 </div>
                 <div className="over-layer-cont">
-                  <h3>Startup</h3>
-                  <p>
-                  Enable knowledge sharing and accelerate innovation by bringing people closer, ideating, developing, scaling, building quickly, and speeding up the overall process to grow your startup without limits with Microsoft Cloud solutions for startups.
-                  </p>
+                  <h3>Startups</h3>
+                  <p>Bring people closer, ideate, develop, scale, build quickly, and speed up the overall process to grow your startup without limits with Microsoft Cloud solutions.</p>
                   <a
                     href="/industries/startups/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -493,9 +479,7 @@ export default function Home() {
                 </div>
                 <div className="over-layer-cont">
                   <h3>Not for Profit</h3>
-                  <p>
-                  Evolution makes it necessary to adapt to change, innovate, and give everyone the freedom to thrive. Dynamics Square experts are always eager to help implement an efficient and highly configured AI-driven & cloud-based Dynamics 365 solution, supporting your non-profit goals across your non-profit hub.
-                  </p>
+                  <p>Implement an efficient and highly configured AI-driven & cloud-based Dynamics 365 solution to support your non-profit goals across your non-profit hub.</p>
                   <a
                     href="/industries/microsoft-cloud-for-nonprofit/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -520,9 +504,7 @@ export default function Home() {
                 </div>
                 <div className="over-layer-cont">
                   <h3>E-Commerce</h3>
-                  <p>
-                  Drive a unified e-commerce experience across your sales models through Microsoft Dynamics 365 for Commerce solutions. Ensure resilience, meet demands, provide customer fulfilment, and secure transactions for seamless growth with efficient Microsoft Cloud for Commerce solutions.
-                  </p>
+                  <p>Ensure resilience, meet demands, provide customer fulfilment, and secure transactions for seamless growth with efficient Microsoft Cloud for e-Commerce.</p>
                   <a
                     href="/industries/ecommerce/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -547,9 +529,7 @@ export default function Home() {
                 </div>
                 <div className="over-layer-cont">
                   <h3>Manufacturing & Distribution</h3>
-                  <p>
-                  Take your planning, sourcing, production, distribution, asset management, sales, service, and overall manufacturing to a whole new level. Achieve sustainable growth in manufacturing by bringing together the capabilities of Microsoft Cloud for manufacturing. 
-                  </p>
+                  <p>Take your planning, sourcing, production, distribution, sales, service, and overall manufacturing to a whole new level with Microsoft Cloud for manufacturing.</p>
                   <a
                     href="/industries/microsoft-cloud-for-manufacturing/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -574,9 +554,7 @@ export default function Home() {
                 </div>
                 <div className="over-layer-cont">
                   <h3>Professional Services</h3>
-                  <p>
-                  Evolution is everywhere, whether in people, technology, or any other area. And to cope with the evolution, businesses need innovation and tailored solutions at the core to help them maximize outcomes. Our experienced consultants can configure specific solutions for your niche with full professionalism.
-                  </p>
+                  <p>To cope with evolution, businesses need innovation and tailored solutions at the core to help them maximize outcomes. Let's configure specific solutions for your niche with full professionalism.</p>
                   <a
                     href="/industries/professional-services/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -601,9 +579,7 @@ export default function Home() {
                 </div>
                 <div className="over-layer-cont">
                   <h3>Food & Beverages</h3>
-                  <p>
-                  Streamline food technology management processes, centrally manage product information, introduce new food products and services quickly, and improve safety, quality, and productivity with growth-hacking Microsoft Dynamics 365 solutions for the F&B industry. 
-                  </p>
+                  <p>Centrally manage product information, introduce new food products and services quickly, and improve safety, quality, and productivity with D365 for the F&B industry.</p>
                   <a
                     href="/industries/food-and-beverages/"
                     className="boxshadow kallyas-button kallyas-button-nn"
@@ -623,9 +599,7 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Microsoft Dynamics Efficiency Audit</h2>
-                <p>
-                Discover solutions that fit you and upgrade your business capabilities to drive continuous growth with our free Dynamics 365 system health check.
-                </p>
+                <p>Discover solutions that fit you and upgrade your business capabilities to drive continuous growth with our free Dynamics 365 system health check.</p>
               </header>
             </div>
           </div>
