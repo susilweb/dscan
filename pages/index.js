@@ -85,7 +85,7 @@ export default function Home() {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get In Touch</span>
+                    <span>Talk to Expert</span>
                   </a>
                 </div>
                 
