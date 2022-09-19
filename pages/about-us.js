@@ -1,7 +1,6 @@
 
 import Head from 'next/head'
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { useEffect,useState } from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -11,10 +10,10 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const AboutUs = () => {
-  const [isSSR, setIsSSR] = useState(true);
-  useEffect(() => {
-    setIsSSR(false);
-  }, []);
+  // const [isSSR, setIsSSR] = useState(true);
+  // useEffect(() => {
+  //   setIsSSR(false);
+  // }, []);
 
 
   return (
@@ -53,7 +52,7 @@ const AboutUs = () => {
           </div>
         </section>
 
-        { !isSSR && <section className="about-intr">
+         <section className="about-intr">
           <div className="container">
             <div className="col-lg-12">
               <div className="about-intr-wrpper">
@@ -78,8 +77,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </section>}
-        { !isSSR && <section className="counter-sec">
+        </section>
+         <section className="counter-sec">
           <div className="container">
             <div className="row inner-side-pad">
               <div className="col-lg-4">
@@ -102,9 +101,9 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </section>}
+        </section>
 
-        { !isSSR && <section className="mission">
+         <section className="mission">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -147,9 +146,9 @@ Become a respected name in the industry by providing a worthy space for people w
               </div>
             </div>
           </div>
-        </section>}
+        </section>
 
-        { !isSSR && <section>
+         <section>
           <div className="container">
             <header className="section-header">
               <h2>Milestones We Achieved</h2>
@@ -232,7 +231,7 @@ Become a respected name in the industry by providing a worthy space for people w
               </div>
             </div>
           </div>
-        </section>}
+        </section>
 
         <section className="domain-expertise">
           <div className="container">
