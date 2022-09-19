@@ -65,7 +65,7 @@ const Startup = () => {
         </section>
         <section>
           <div className="container">
-            <div class="row justify-content-center">
+            <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>
@@ -169,7 +169,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
         </section>
         <section className="industry_service_bottoms">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>
@@ -379,7 +379,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
 
         <section className="industry-more-sec">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>Explore Other Industries</h2>
@@ -559,7 +559,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
 
         <section className="blogs-extra">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>

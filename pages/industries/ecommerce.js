@@ -66,7 +66,7 @@ const Ecommerce = () => {
         </section>
         <section>
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>
@@ -171,7 +171,7 @@ const Ecommerce = () => {
 
         <section className="industry_service_bottoms">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2> Microsoft Dynamics 365 For E-Commerce Features</h2>
@@ -362,7 +362,7 @@ const Ecommerce = () => {
                   How to Uplift Your Business Capabilities with Dynamics 365 for Ecommerce Business Solutions?
                   </h2>
                   <p>
-                  Let’s connect to understand how Microsoft Dynamics 365 implementation for Ecommerce companies can enable you to drive efficiency and produce better. 
+                  Let's connect to understand how Microsoft Dynamics 365 implementation for Ecommerce companies can enable you to drive efficiency and produce better. 
                   </p>
                   <div className="text-lg-start">
                     <a
@@ -381,7 +381,7 @@ const Ecommerce = () => {
 
         <section className="industry-more-sec">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>Explore Other Industries</h2>
@@ -560,7 +560,7 @@ const Ecommerce = () => {
         </section>
         <section className="blogs-extra">
           <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>Explore Our Recent Blogs & Resources</h2>
