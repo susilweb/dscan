@@ -77,9 +77,7 @@ export default function Home() {
               <h1>
               Empowering Businesses with Cloud Technology
               </h1>
-              <p>
-              Dynamics Square is Canada's leading Microsoft Gold Partner, trusted by 250+ clients worldwide. We're proactively delivering cloud-based ERP and CRM solutions, training, consulting and support from a dedicated team of 135+ highly skilled Microsoft consultants to help you take advantage of business process automation and make the most of your investment. 
-              </p>
+              <p>We simplify your business and bring scalable growth through innovative Microsoft Cloud solutions. Get your business problems solved today.</p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <a
