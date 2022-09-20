@@ -1,15 +1,13 @@
 
 import Head from 'next/head'
-import React from "react";
 import Form from "../components/Form";
-const HealthCheck = () => {
+const SystemHealth = () => {
   return (
     <>
       <Head>
       <title>Dynamics 365 System Health Check - AT NO COST</title>
 <meta name="description" content="Our Microsoft Dynamics 365 System Health Check will help you to identify your current system performance and upgrading needs. Avail it at no cost."/>
 <link rel="canonical" href="https://www.dynamicssquare.ca/free-dynamics-365-system-health-check/" />
-<meta property="og:locale" content="en_US" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -46,12 +44,12 @@ const HealthCheck = () => {
       <section className="new-bg">
         <div className="container">
         <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
+            <div className="col-lg-9 col-md-9">
             <header className="section-header">
             <h2>
             Strategic Need of  Dynamics ERP/CRM Health Check</h2>
             <p>
-            Availing of advanced <a href="/products/erp/">ERP/CRM implementation</a> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<p>At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p></p>
+            Availing of advanced <a href="/products/erp/">ERP/CRM implementation</a> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<br /><br />At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p>
           </header>
             </div>
           </div>
@@ -278,4 +276,4 @@ const HealthCheck = () => {
   );
 };
 
-export default HealthCheck;
+export default SystemHealth;

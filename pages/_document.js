@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang='en-CA'>
         <Head>
         <link href="/favicon.png" rel="icon" />
           <link href="/favicon.png" rel="apple-touch-icon" />

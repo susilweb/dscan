@@ -817,7 +817,7 @@ return(
                     <i className="bi bi-chevron-down"></i>
                   </a>
                   <ul>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://www.dynamicssquare.com/blog/"
                         rel=""
@@ -825,7 +825,7 @@ return(
                       >
                         Blog
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/ebook/">eBook</a>
                     </li>
@@ -833,9 +833,9 @@ return(
                     <li>
                       <a href="/case-studies/">Case Studies</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/webinars/">Webinars</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li>
@@ -1285,7 +1285,7 @@ return(
                         <div className="accordion-body">
                           <div className="iner-list">
                             <ul>
-                              <li>
+                              {/* <li>
                                 <a
                                   href="https://www.dynamicssquare.com/blog/"
                                   target="_self"
@@ -1293,7 +1293,7 @@ return(
                                 >
                                   Blogs
                                 </a>
-                              </li>
+                              </li> */}
                               <li>
                                 <a href="/ebook/">eBook</a>
                               </li>
@@ -1303,9 +1303,9 @@ return(
                                   Case Studies
                                 </a>
                               </li>
-                              <li>
+                              {/* <li>
                                 <a href="/webinars/">Webinars</a>
-                              </li>
+                              </li> */}
                             </ul>
                           </div>
                         </div>

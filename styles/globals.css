@@ -33,7 +33,6 @@ svg {
   bottom: 15px;
   right: 15px;
 }
-.finace-acc .accordion-item span,
 
 .breadcrumbs ol a:hover,
 .extr-cont span a:hover {
@@ -275,7 +274,7 @@ section {
 .fixed-top,
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 30px;
+  padding: 8px 30px;
   box-shadow: var(--shadow-medium);
   -moz-box-shadow: var(--shadow-medium);
   -webkit-box-shadow: var(--shadow-medium);
@@ -295,6 +294,14 @@ section {
   font-weight: 500;
   color: #012970;
   margin-top: 3px;
+}
+.const-list-name {
+  color: #fff;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .navbar,
 .portfolio-details .portfolio-description p {

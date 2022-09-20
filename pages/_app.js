@@ -2,11 +2,38 @@ import  '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import Layouts from '../components/Layouts'
+import {useRouter} from 'next/router';
+import Header from '../components/Header';
+
+// function MyApp({ Component, pageProps }) {
+
+//   return 
+  
+//   <Layouts>
+//       <Component {...pageProps} />
+//     </Layouts>
+// }
+
+// export default MyApp
+
 
 function MyApp({ Component, pageProps }) {
-  return <Layouts>
+  const router = useRouter();
+  if(router.asPath =='/contact-us')  {
+    return (
+      <>
+      <Header />
       <Component {...pageProps} />
-    </Layouts>
+      </>
+    )
+   
+ };
+
+  return <>
+  <Layouts>
+  <Component {...pageProps} />
+  </Layouts>
+  </>
 }
 
 export default MyApp
