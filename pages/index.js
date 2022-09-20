@@ -604,10 +604,11 @@ export default function Home() {
 
           <div className="row">
             <div className="col-lg-6 aos-init align-self-center">
-              <img
-                src="/img/system-health-check.png"
+              <Image
+                src="/img/system-health-check.png" width={550}
+                height={550}
                 className="system-health-check"
-                alt="Dynamics 365 System Health Check"
+                alt="Dynamics 365 System Health Check" layout='responsive'
               />
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content align-self-center">
