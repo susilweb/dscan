@@ -608,7 +608,7 @@ export default function Home() {
                 src="/img/system-health-check.png" width={550}
                 height={550}
                 className="system-health-check"
-                alt="Dynamics 365 System Health Check" layout='responsive'
+                alt="Dynamics 365 System Health Check"
               />
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content align-self-center">
@@ -893,10 +893,11 @@ export default function Home() {
             <div className="col-lg-6 align-self-center">
               <div className="testimonials-bg">
                 <div className="testimonials-rigt-iner">
-                  <img
+                  <Image
                     src="/img/testmonial-side-pic.png"
+                    width={630} height={600}
                     className="testmonial-side-pic"
-                    alt=""
+                    alt="testmonial-side-pic"
                   />
                 </div>
               </div>
@@ -999,9 +1000,11 @@ export default function Home() {
         <div className="container" data-aos="fade-up">
           <div className="row  gy-4">
             <div className="col-lg-5 align-self-center">
-              <img
+              <Image
                 src="/img/case-study-side-banner.png"
                 alt="case-study-side-banner"
+                width={520}
+                height={480}
               />
             </div>
             <div className="col-lg-1 align-self-center"></div>

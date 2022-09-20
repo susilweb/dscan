@@ -1,4 +1,5 @@
 import Form from "./Form";
+import Image from 'next/image'
 const Footer = () =>{
 
     return(
@@ -139,10 +140,12 @@ const Footer = () =>{
                   </div>
                 </div>
                 <div className="col-sm-4 col-md-6 col-lg-6 hide-c">
-                  <img
+                  <Image
                     src="/img/contactfor-sede-img.jpg"
                     alt="contactfor-sede-img"
+                    width={540} height={610}
                     className="image-cover"
+                    layout="responsive"
                   />
                 </div>
               </div>
