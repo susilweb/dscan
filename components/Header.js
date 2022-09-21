@@ -729,7 +729,7 @@ return(
                       </a>
                     </li>
                     <li>
-                      <a href="/power-bi/">
+                      <a href="/products/microsoft-power-bi/">
                        Power BI
                       </a>
                     </li>
