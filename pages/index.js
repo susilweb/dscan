@@ -75,7 +75,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6  align-self-center">
               <h1>
-              Canada's Leading Microsoft Dynamics Partner
+              Canada's Leading <br /> Microsoft Dynamics <br />Partner
               </h1>
               <p>We simplify your business and bring scalable growth through innovative Microsoft Cloud solutions. Get your business problems solved today.</p>
               <div>
