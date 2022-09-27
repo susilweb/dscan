@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.3",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
     "next": "12.2.5",

@@ -811,13 +811,13 @@ return(
                     </li>
                   </ul>
                 </li>
-                <li className="dropdown">
+                {/* <li className="dropdown">
                   <a href="#">
                     <span>Resources</span>{" "}
                     <i className="bi bi-chevron-down"></i>
                   </a>
                   <ul>
-                    {/* <li>
+                    <li>
                       <a
                         href="https://www.dynamicssquare.com/blog/"
                         rel=""
@@ -825,7 +825,7 @@ return(
                       >
                         Blog
                       </a>
-                    </li> */}
+                    </li> 
                     <li>
                       <a href="/ebook/">eBook</a>
                     </li>
@@ -833,11 +833,11 @@ return(
                     <li>
                       <a href="/case-studies/">Case Studies</a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a href="/webinars/">Webinars</a>
-                    </li> */}
+                    </li> 
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <a className="nav-link" href="/contact-us/">
                     Contact Us
@@ -1261,7 +1261,7 @@ return(
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
+                    {/* <div className="accordion-item">
                       <div className="accordion-header" id="list-5">
                         <button
                           className="accordion-button collapsed"
@@ -1285,7 +1285,7 @@ return(
                         <div className="accordion-body">
                           <div className="iner-list">
                             <ul>
-                              {/* <li>
+                              <li>
                                 <a
                                   href="https://www.dynamicssquare.com/blog/"
                                   target="_self"
@@ -1293,7 +1293,7 @@ return(
                                 >
                                   Blogs
                                 </a>
-                              </li> */}
+                              </li> 
                               <li>
                                 <a href="/ebook/">eBook</a>
                               </li>
@@ -1303,14 +1303,14 @@ return(
                                   Case Studies
                                 </a>
                               </li>
-                              {/* <li>
+                               <li>
                                 <a href="/webinars/">Webinars</a>
-                              </li> */}
+                              </li> 
                             </ul>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="accordion-item">
                       <a className="nav-link" href="/contact-us/">
                         Contact Us

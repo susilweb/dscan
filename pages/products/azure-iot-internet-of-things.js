@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
+import Spline from '@splinetool/react-spline';
 // import ModalVideo from "react-modal-video";
 const AzureIoT = () => {
   const [isOpen, setOpen] = useState(false);
@@ -619,6 +620,13 @@ const AzureIoT = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row" style={{height:'600px'}}>
+          <Spline scene="https://prod.spline.design/KgkfUUTFN50N5FoE/scene.splinecode" />
           </div>
         </div>
       </section>
