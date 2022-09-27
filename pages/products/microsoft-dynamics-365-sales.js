@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 const Sales = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -21,13 +21,13 @@ const Sales = () => {
         <meta property="og:type" content="article" />
         
       </Head>
-      {/* <ModalVideo
+      <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="5mS_J5z9v7o"
         onClose={() => setOpen(false)}
-      /> */}
+      /> 
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
