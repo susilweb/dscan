@@ -13,18 +13,10 @@ const Finance = () => {
           name="description"
           content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today."
         />
+           <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-finance/"
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Finance Partner | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance and operations. Schedule a demo today!"
         />
       </Head>
 

@@ -14,6 +14,7 @@ const CustomerService = () => {
           name="description"
           content="Get any help of Microsoft Dynamics 365 Customer Service - US Leading Microsoft Partner Dynamics Square ready to help you 24X7 hours!"
         />
+           <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-customer-service/"

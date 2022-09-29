@@ -15,13 +15,11 @@ const PowerBI = () => {
           name="description"
           content="Power BI Expert: Use Microsoft Power BI data visualization tools to transform your data into actionable insights. Contact us for a free Power BI consultation &amp; services."
         />
+           <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.com/products/microsoft-power-bi/"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-       
+        />     
       </Head>
       <ModalVideo
         channel="youtube"

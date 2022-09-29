@@ -36,15 +36,13 @@ export default function Home() {
    <>
    <Head>
    <title>
-          Microsoft Dynamics 365 Partner Canada| Dynamics Square
+   Microsoft Gold Partner Canada | Dynamics Square 
         </title>
         <meta
           name="description"
-          content="Dynamics Square is CA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
+          content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today."
         />
         <link rel="canonical" href="https://www.dynamicssquare.ca/" />
-
-
 
         <meta property="og:title" content="Dynamics Square is" />
         <meta name="og:description" content="Dynamics Square is" />

@@ -13,6 +13,7 @@ const Sales = () => {
           name="description"
           content="Attract & engage potential customer base and connect & serve them in real-time with omnichannel efficiency. With Dynamics 365 for Sales, uplift your sales capabilities, improve your sales turnover, and drive profitability. "
         />
+           <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-sales/"

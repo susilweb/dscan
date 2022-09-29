@@ -208,7 +208,7 @@ const AboutUs = () => {
                   </div>
                   <div className="tem-mem-info">
                     <h4>Gaurav Goyal</h4>
-                    <span>Founder</span>
+                    <span>Co - Founder</span>
                   </div>
                   <div className="social">
                     <a href="https://www.linkedin.com/in/gauravg1">
@@ -240,7 +240,7 @@ const AboutUs = () => {
                   </div>
                   <div className="tem-mem-info">
                     <h4>Dr. Felton Lean</h4>
-                    <span>Lead Trainer</span>
+                    <span>The People Person</span>
                   </div>
                   <div className="social">
                     <a href="https://www.linkedin.com/in/dr-felton-lean-5941bb2b/">

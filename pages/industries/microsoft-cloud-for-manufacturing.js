@@ -18,12 +18,11 @@ const Startup = () => {
           name="description"
           content="Connect and streamline, people, workflow, and processes to support your production line, bring efficiency, and improve your customer experience with Microsoft Cloud for Manufacturing."
         />
+        <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/microsoft-cloud-for-manufacturing/"
         />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
       </Head>
       {/* <ModalVideo
         channel="youtube"

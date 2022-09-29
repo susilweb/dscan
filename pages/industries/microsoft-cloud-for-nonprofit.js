@@ -22,8 +22,7 @@ const MicrosoftCloudForNonprofit = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/microsoft-cloud-for-nonprofit/"
         />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
+     <meta name="robots" content="noindex,nofollow" />
         
       </Head>
       {/* <ModalVideo
