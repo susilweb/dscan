@@ -1,5 +1,6 @@
 
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,23 +12,25 @@ class MyDocument extends Document {
     return (
       <Html lang='en-CA'>
         <Head>
-        <link href="/favicon.png" rel="icon" />
-          <link href="/favicon.png" rel="apple-touch-icon" />
-        <link
-      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243571673-1"></script>
-<script>
- {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
- gtag('config', 'UA-243571673-1');
- `}
-</script>
-    <meta name="google-site-verification" content="xFgE4PTaJv9p6KEkLb3yvhTbsewZhPo7xg8VbUXi_ME" />
+            <link href="/favicon.png" rel="icon" />
+            <link href="/favicon.png" rel="apple-touch-icon" />
+            <link
+            href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet"
+            />
+            <meta name="google-site-verification" content="xFgE4PTaJv9p6KEkLb3yvhTbsewZhPo7xg8VbUXi_ME" />
+            <Script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-243571673-1"
+            strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-243571673-1');
+                `}
+            </Script>
         </Head>
         <body>
           <Main />
