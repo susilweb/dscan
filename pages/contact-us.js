@@ -28,7 +28,7 @@ const ContactUs = () => {
                 </div>
                 <div className="col-lg-6 align-self-center">
                   <img
-                    src="img/contact-us-pic.png"
+                    src="/img/contact-us-pic.png"
                     alt="contact-us-pic"
                   />
                 </div>
@@ -61,12 +61,12 @@ const ContactUs = () => {
                     <div className="col-lg-6 col-sm-12">
                       <div className="addre-left">
                         <p>
-                          10101 Southwest Freeway Houston,
+                        800 Steeles Ave. W. #B10155 Thornhill,
                           <br />
-                          TX 77074
+                          ON. L4J 7L23E2.
                         </p>
                         <a
-                          href="https://goo.gl/maps/ij2svGJ1tEPqGPvQ8"
+                          href="https://goo.gl/maps/yMFbizQwMpLRkN3w6"
                           target="_blank"
                         >
                           Locate Us on Google
@@ -77,7 +77,7 @@ const ContactUs = () => {
                       <div className="addre-rigt">
                         <div className="cont-info">
                           <i className="bi bi-telephone"></i>{" "}
-                          <span>+1-281-899-0865</span>
+                          <span>+1 289 807 2802</span>
                         </div>
                         <div className="cont-info">
                           <i className="bi bi-envelope"></i>{" "}
@@ -108,7 +108,7 @@ const ContactUs = () => {
                     </div>
                     <div className="col-md-6 col-lg-6">
                       <img
-                        src="img/contactfor-sede-img.jpg"
+                        src="/img/contactfor-sede-img.jpg"
                         alt="contactfor-sede-img"
                         className="image-cover"
                       />
@@ -131,9 +131,23 @@ const ContactUs = () => {
                     id="myTab"
                     role="tablist"
                   >
-                    <li className="nav-item" role="presentation">
+                     <li className="nav-item" role="presentation">
                       <button
                         className="nav-link active"
+                        id="contact-tab-1"
+                        data-bs-toggle="tab"
+                        data-bs-target="#contact-1"
+                        type="button"
+                        role="tab"
+                        aria-controls="contact"
+                        aria-selected="false"
+                      >
+                        Canada
+                      </button>
+                    </li>
+                    <li className="nav-item" role="presentation">
+                      <button
+                        className="nav-link"
                         id="profile-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#profile"
@@ -162,20 +176,7 @@ const ContactUs = () => {
                       </button>
                     </li>
   
-                    <li className="nav-item" role="presentation">
-                      <button
-                        className="nav-link"
-                        id="contact-tab-1"
-                        data-bs-toggle="tab"
-                        data-bs-target="#contact-1"
-                        type="button"
-                        role="tab"
-                        aria-controls="contact"
-                        aria-selected="false"
-                      >
-                        Canada
-                      </button>
-                    </li>
+                   
                     <li className="nav-item" role="presentation">
                       <button
                         className="nav-link"
@@ -193,15 +194,15 @@ const ContactUs = () => {
                     <li className="nav-item" role="presentation">
                       <button
                         className="nav-link"
-                        id="contact-tab-3"
+                        id="contact-tab-5"
                         data-bs-toggle="tab"
-                        data-bs-target="#contact-3"
+                        data-bs-target="#contact-5"
                         type="button"
                         role="tab"
                         aria-controls="contact"
                         aria-selected="false"
                       >
-                        India
+                        Australia
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
@@ -218,24 +219,25 @@ const ContactUs = () => {
                         Singapore
                       </button>
                     </li>
+                   
                     <li className="nav-item" role="presentation">
                       <button
                         className="nav-link"
-                        id="contact-tab-5"
+                        id="contact-tab-3"
                         data-bs-toggle="tab"
-                        data-bs-target="#contact-5"
+                        data-bs-target="#contact-3"
                         type="button"
                         role="tab"
                         aria-controls="contact"
                         aria-selected="false"
                       >
-                        Australia
+                        India
                       </button>
                     </li>
                   </ul>
                   <div className="tab-content" id="myTabContent">
                     <div
-                      className="tab-pane fade show active"
+                      className="tab-pane fade"
                       id="profile"
                       role="tabpanel"
                       aria-labelledby="profile-tab"
@@ -371,42 +373,13 @@ const ContactUs = () => {
                     </div>
   
                     <div
-                      className="tab-pane fade"
+                      className="tab-pane fade show active"
                       id="contact-1"
                       role="tabpanel"
                       aria-labelledby="contact-tab"
                     >
                       <div className="row justify-content-center">
-                        <div className="col-lg-4">
-                          <div className="cont-hh">
-                            <h3>British Columbia</h3>
-                          </div>
-                          <div className="contact-list">
-                            <div className="icons-left">
-                              <i className="bi bi-geo-alt"></i>
-                            </div>
-                            <div className="content-right">
-                              398-2416 Main St. Vancouver BC V5T 3E2
-                            </div>
-                          </div>
-                          <div className="contact-list">
-                            <div className="icons-left">
-                              <i className="bi bi-telephone"></i>
-                            </div>
-                            <div className="content-right">+1 778 652 3656</div>
-                          </div>
-                          <div className="contact-list">
-                            <div className="icons-left">
-                              <i className="bi bi-envelope"></i>
-                            </div>
-                            <div className="content-right">
-                              <a href="mailto:info@dynamicssquare.com">
-                                info@dynamicssquare.com
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-4">
+                      <div className="col-lg-4">
                           <div className="cont-hh">
                             <h3>Ontario</h3>
                           </div>
@@ -436,6 +409,36 @@ const ContactUs = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="col-lg-4">
+                          <div className="cont-hh">
+                            <h3>British Columbia</h3>
+                          </div>
+                          <div className="contact-list">
+                            <div className="icons-left">
+                              <i className="bi bi-geo-alt"></i>
+                            </div>
+                            <div className="content-right">
+                              398-2416 Main St. Vancouver BC V5T 3E2
+                            </div>
+                          </div>
+                          <div className="contact-list">
+                            <div className="icons-left">
+                              <i className="bi bi-telephone"></i>
+                            </div>
+                            <div className="content-right">+1 778 652 3656</div>
+                          </div>
+                          <div className="contact-list">
+                            <div className="icons-left">
+                              <i className="bi bi-envelope"></i>
+                            </div>
+                            <div className="content-right">
+                              <a href="mailto:info@dynamicssquare.com">
+                                info@dynamicssquare.com
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                       
                       </div>
                     </div>
                     <div
@@ -696,7 +699,7 @@ const ContactUs = () => {
                 <div className="col-lg-5 col-md-12 footer-info">
                   <a href="/" className="logo d-flex align-items-center">
                     <img
-                      src="img/dsuk-footer-logo.svg"
+                      src="/img/dsuk-footer-logo.svg"
                       alt="dsuk-footer-logo"
                     />
                   </a>
@@ -707,12 +710,12 @@ const ContactUs = () => {
                     Microsoft consultants.
                   </p>
                   <img
-                    src="img/microsoft-partner.svg"
+                    src="/img/microsoft-partner.svg"
                     alt="microsoft-partner"
                     className="footer-img"
                   />
                   <img
-                    src="img/Tech-For-Socil-Impact.svg"
+                    src="/img/Tech-For-Socil-Impact.svg"
                     alt="Tech-For-Socil-Impact"
                     className="footer-img"
                   />

@@ -156,91 +156,8 @@ const Footer = () =>{
 
     <div className="footer-contact-s">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              <div className="const-list-name">California</div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                  2372 Morse Ave, Ste. 310 Irvine, CA 92614
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                  <a target="_self" rel="" href="tel:+12137840845">
-                    +1 213 784 0845
-                  </a>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.com</div>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
-              <div className="const-list-name">Texas</div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                  10101 Southwest Freeway Houston, TX 77074
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                  <a target="_self" rel="" href="tel:+12818990865">
-                    +1 281 899 0865
-                  </a>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.com</div>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
-              <div className="const-list-name">British Columbia</div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                  398-2416 Main St. Vancouver BC V5T 3E2
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                  <a target="_self" rel="" href="tel:+17786523656">
-                    +1 778 652 3656
-                  </a>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.com</div>
-              </div>
-            </div>
-            <div className="col-lg-3">
+          <div className="row justify-content-center">
+          <div className="col-lg-4">
               <div className="const-list-name">Ontario</div>
               <div className="contact-list">
                 <div className="icons-left">
@@ -257,6 +174,33 @@ const Footer = () =>{
                 <div className="content-right">
                   <a target="_self" rel="" href="tel:+12898072802">
                     +1 289 807 2802
+                  </a>
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-envelope"></i>
+                </div>
+                <div className="content-right">info@dynamicssquare.com</div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="const-list-name">British Columbia</div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-geo-alt"></i>
+                </div>
+                <div className="content-right">
+                  398-2416 Main St. Vancouver BC V5T 3E2
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-telephone"></i>
+                </div>
+                <div className="content-right">
+                  <a target="_self" rel="" href="tel:+17786523656">
+                    +1 778 652 3656
                   </a>
                 </div>
               </div>
