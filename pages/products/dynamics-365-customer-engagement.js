@@ -8,7 +8,6 @@ const Dynamics365CustomerEngagement = () => {
 <meta name="description" content="Uplift your sales &amp; marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans."/>
 <meta name="robots" content="noindex,nofollow" />
 <link rel="canonical" href="https://www.dynamicssquare.ca/products/dynamics-365-customer-engagement/" />
-<meta property="og:locale" content="en_GB" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
