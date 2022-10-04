@@ -31,7 +31,7 @@ class MyDocument extends Document {
                 gtag('config', 'UA-243571673-1');
                 `}
             </Script>
-            {/* <Script id="Adoric_Script" strategy="beforeInteractive">
+             <Script id="Adoric_Script" strategy="afterInteractive">
                 {`
                 (function (a, d, o, r, i, c, u, p, w, m) {
                   m = d.getElementsByTagName(o)[0], a[c] = a[c]
@@ -43,7 +43,7 @@ class MyDocument extends Document {
                   m.parentNode.insertBefore(w, m), w = null}
                   )(window, document, "script", "https://68645155.adoric-om.com/adoric.js", "Adoric_Script", "adoric","5d7b8ed8217b2eb2098e9eaca5386d15", "data-key");
                 `}
-            </Script> */}
+            </Script> 
         </Head>
         <body>
           <Main />
