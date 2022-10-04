@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Router  from 'next/router';
 const ThankYou = () => {
-    Router.reload(window.location.pathname);
+    // Router.reload(window.location.pathname);
   return (
     <>
       <Head>
