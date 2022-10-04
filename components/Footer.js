@@ -1,9 +1,37 @@
+import React, { useRef ,useState } from 'react';
 import Form from "./Form";
+import emailjs from '@emailjs/browser';
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 const Footer = () =>{
+  
+  const router = useRouter();
+  const form = useRef();
+  const [closeModal, setCloseModal]  = useState(false);
+  function handleCloseModal(){            
+    document.getElementById("exampleModal").classList.remove("show", "d-block");
+    document.querySelectorAll(".modal-backdrop")
+            .forEach(el => el.classList.remove("modal-backdrop"));
+}
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+      setCloseModal(true);
+      router.push("https://www.dynamicssquare.ca/thank-you/");
+  };
 
     return(
     <>
+    {!closeModal &&
      <div
         className="modal fade form-main-model"
         id="exampleModal"
@@ -34,7 +62,7 @@ const Footer = () =>{
             </p>
             <div className="modal-body">
               <div className="main-form-wrper">
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3">
                     <input
                       type="text"
@@ -122,6 +150,9 @@ const Footer = () =>{
           </div>
         </div>
       </div>
+
+                  }
+
       <section id="services" className="services bg-shape ovr-f hidesec">
         <div className="container" data-aos="fade-up">
           <header className="section-header">
