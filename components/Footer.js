@@ -31,7 +31,7 @@ const Footer = () =>{
 
     return(
     <>
-    {!closeModal &&
+    {!closeModal && 
      <div
         className="modal fade form-main-model"
         id="exampleModal"
