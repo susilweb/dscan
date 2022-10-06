@@ -1,7 +1,6 @@
 import React, { useRef ,useState } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
-import Image from 'next/image'
 import { useRouter } from 'next/router';
 const Footer = () =>{
   
@@ -18,7 +17,7 @@ const Footer = () =>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
+    emailjs.sendForm('service_fhump8ww', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -171,10 +170,9 @@ const Footer = () =>{
                   </div>
                 </div>
                 <div className="col-sm-4 col-md-6 col-lg-6 hide-c">
-                  <Image
+                  <img
                     src="/img/contactfor-sede-img.jpg"
                     alt="contactfor-sede-img"
-                    width={540} height={610}
                     className="image-cover"
                     layout="responsive"
                   />

@@ -17,6 +17,13 @@
     0 2px 2px rgb(29 35 115 / 2%);
 }
 
+  
+body {
+  font-family: Inter, sans-serif !important;
+  color: #444;
+  font-size: 1.125rem;
+  letter-spacing: 0.6px;
+}
 .form-main-model{
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: rgb(0 0 0 / 23%);
@@ -25,12 +32,6 @@
 .form-main-model .modal-content{border: none;} 
 .modal-backdrop{
   display:none
-}  
-body {
-  font-family: Inter, sans-serif !important;
-  color: #444;
-  font-size: 1.125rem;
-  letter-spacing: 0.6px;
 }
 .btn-welcome,
 .navbar-mobile .dropdown > .dropdown-active,

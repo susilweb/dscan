@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Script from 'next/script'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -602,9 +602,8 @@ export default function Home() {
 
           <div className="row">
             <div className="col-lg-6 aos-init align-self-center">
-              <Image
-                src="/img/system-health-check.png" width={550}
-                height={550}
+              <img
+                src="/img/system-health-check.png" 
                 className="system-health-check"
                 alt="Dynamics 365 System Health Check"
               />
@@ -891,9 +890,8 @@ export default function Home() {
             <div className="col-lg-6 align-self-center">
               <div className="testimonials-bg">
                 <div className="testimonials-rigt-iner">
-                  <Image
+                  <img
                     src="/img/testmonial-side-pic.png"
-                    width={630} height={600}
                     className="testmonial-side-pic"
                     alt="testmonial-side-pic"
                   />
@@ -998,11 +996,9 @@ export default function Home() {
         <div className="container" data-aos="fade-up">
           <div className="row  gy-4">
             <div className="col-lg-5 align-self-center">
-              <Image
+              <img
                 src="/img/case-study-side-banner.png"
                 alt="case-study-side-banner"
-                width={520}
-                height={480}
               />
             </div>
             <div className="col-lg-1 align-self-center"></div>
