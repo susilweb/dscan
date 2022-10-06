@@ -17,7 +17,7 @@ const Footer = () =>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fhump8ww', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
+    emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

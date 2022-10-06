@@ -2,13 +2,12 @@ import Head from 'next/head';
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 const ThankYou = () => {
-  const router = useRouter();
-  useEffect(() => {
-    setTimeout(() => {
-      // router.reload('/')
-      router.push('/' , null, { shallow: true })
-    }, 4000)
-  }, [])
+  // const router = useRouter();
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     router.push('/' , null, { shallow: true })
+  //   }, 4000)
+  // }, [])
   return (
     <>
       <Head>
