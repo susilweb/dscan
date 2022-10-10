@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
-import Spline from '@splinetool/react-spline';
 const AzureIoT = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
