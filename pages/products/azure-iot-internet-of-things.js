@@ -624,13 +624,6 @@ const AzureIoT = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container">
-          <div className="row">
-          <Spline scene="https://prod.spline.design/KgkfUUTFN50N5FoE/scene.splinecode" />
-          </div>
-        </div>
-      </section>
     </>
   );
 };

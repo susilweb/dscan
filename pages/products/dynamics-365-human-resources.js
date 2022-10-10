@@ -7,7 +7,6 @@ const HumanResource = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>Dynamics 365 Human Resources - Optimize HR Programs</title>
         <meta
           name="description"

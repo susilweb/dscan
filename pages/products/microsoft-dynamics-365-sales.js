@@ -7,7 +7,6 @@ const Sales = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>Microsoft Dynamics 365 Sales | D365 Sales ERP Solution</title>
         <meta
           name="description"
@@ -18,8 +17,6 @@ const Sales = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-sales/"
         />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
         
       </Head>
       <ModalVideo

@@ -989,7 +989,7 @@ return(
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/azure-iot-edge">
+                                    <a href="/products/azure-iot-edge/">
                                       IoT Edge
                                     </a>
                                   </li>

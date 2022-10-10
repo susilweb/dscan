@@ -7,7 +7,6 @@ const PowerBI = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>
         Microsoft Power BI Expert | Power BI Services &amp; Pricing
         </title>
@@ -18,7 +17,7 @@ const PowerBI = () => {
            <meta name="robots" content="noindex,nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-power-bi/"
+          href="https://www.dynamicssquare.ca/products/microsoft-power-bi/"
         />     
       </Head>
       <ModalVideo
