@@ -1,5 +1,6 @@
 
 import React, { useRef, useEffect, useState } from "react";
+import Link from "next/link"; 
 import Head from 'next/head'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -1979,7 +1980,7 @@ const BusinessCentral = () => {
                       Business Approach
                       </h3>
                       <div className="overlay">
-                        <p>With Power BI, Power Automate, Power Apps, Power Virtual Agents, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
+                        <p>With <Link href="microsoft-power-bi"><a>Power BI</a></Link> Automate, Power Apps, Power Virtual Agents, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
