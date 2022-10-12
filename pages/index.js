@@ -1,5 +1,6 @@
 import Head from 'next/head'
 // import Image from 'next/image'
+import Spline from '@splinetool/react-spline';
 import Script from 'next/script'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -104,7 +105,8 @@ export default function Home() {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <div className="banner-service-wraper">
+              <Spline className='nn' scene="https://prod.spline.design/mMw4apDfV4WLm7kV/scene.splinecode" />
+              {/* <div className="banner-service-wraper">
                 <ul className="list-n fist-m">
                   <li>
                     <div className="list-n-wrp">
@@ -260,7 +262,7 @@ export default function Home() {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
