@@ -5979,6 +5979,9 @@ color:var(--color-red)
   width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
     height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
 }
+.pricing  .box-999{
+  height:430px
+}
 @media (min-width: 991px) {
   .mob-disp {
     display: none;
