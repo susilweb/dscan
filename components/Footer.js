@@ -70,7 +70,7 @@ const Footer = () =>{
                       name="name"
                       required
                     />
-                    <input type="hidden" name="url" />
+                    <input type="hidden" value={router.asPath} name="url" />
                   </div>
 
                   <div className="mb-3">
