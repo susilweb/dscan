@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 const Footer = () =>{
   
   const router = useRouter();
+  const [display, setDisplay] = useState("dspn");
   const form = useRef();
   const [closeModal, setCloseModal]  = useState(false);
   function handleCloseModal(){            
@@ -15,6 +16,7 @@ const Footer = () =>{
 
 
   const sendEmail = (e) => {
+    setDisplay("spinner-border text-success");
     e.preventDefault();
 
     emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
@@ -23,9 +25,13 @@ const Footer = () =>{
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset()
-      setCloseModal(true);
-      router.push("/thank-you/");
+     
+      setTimeout(function() {
+        setCloseModal(true);
+        e.target.reset();
+        router.push("/thank-you/");
+      }, 2000);
+      
   };
 
     return(
@@ -139,9 +145,9 @@ const Footer = () =>{
                     >
                       Submit
                     </button>
-                    {/* <div className={display} role="status">
+                    <div className={display} role="status">
                       <span className="visually-hidden">Loading...</span>
-                    </div> */}
+                    </div>
                   </div>
                 </form>
               </div>
