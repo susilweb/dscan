@@ -30,7 +30,7 @@ const Footer = () =>{
         setCloseModal(true);
         e.target.reset();
         router.push("/thank-you/");
-      }, 2000);
+      }, 1000);
       
   };
 

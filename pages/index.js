@@ -105,7 +105,12 @@ export default function Home() {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <Spline className='nn' scene="https://prod.spline.design/mMw4apDfV4WLm7kV/scene.splinecode" />
+              {/* <img
+                    src="/img/banner-head-image.png"
+                    alt="business-center-logo"
+                    className="icon"
+                  /> */}
+              <Spline className='nn' scene="https://prod.spline.design/mMw4apDfV4WLm7kV/scene.splinecode" /> 
               {/* <div className="banner-service-wraper">
                 <ul className="list-n fist-m">
                   <li>
