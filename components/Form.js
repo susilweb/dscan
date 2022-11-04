@@ -1,10 +1,33 @@
-
-
+import React, { useRef ,useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { useRouter } from 'next/router';
 const Form = () => {
+  const router = useRouter();
+  const [display, setDisplay] = useState("dspn");
+  const form = useRef();
+  const sendEmail = (e) => {
+    setDisplay("spinner-border text-success");
+    e.preventDefault();
+
+    emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+     
+      setTimeout(function() {
+        e.target.reset();
+        router.push("/thank-you/");
+      }, 1000);
+      
+  };
+
+
     return (
         <div>
              <div className="main-form-wrper">
-                <form>
+             <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3">
                     <input
                       type="text"
@@ -13,7 +36,7 @@ const Form = () => {
                       name="name"
                       required
                     />
-                    <input type="hidden" name="url" />
+                    <input type="hidden" value={router.asPath} name="url" />
                   </div>
 
                   <div className="mb-3">
@@ -22,7 +45,7 @@ const Form = () => {
                       className="form-control"
                       placeholder="* Work Email"
                       name="email"
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
                   </div>
@@ -30,17 +53,19 @@ const Form = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Company Name"
+                      placeholder="*Company Name"
                       name="company_name"
+                      required
                     />
                   </div>
                   <div className="mb-3">
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="Phone Number"
+                      placeholder="*Phone Number"
                       name="phone"
                       pattern="^\d{10,13}$"
+                      required
                     />
                   </div>
                   <div className="mb-3">
@@ -50,6 +75,7 @@ const Form = () => {
                       placeholder="* How Can We Help You?"
                       rows="3"
                       name="message"
+                      required
                     ></textarea>
                   </div>
                   <div className="mb-3 form-check">
