@@ -72,7 +72,7 @@ export default function Home() {
    <section id="hero" className="hero hero-1">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6  align-self-center">
+            <div className="col-lg-5  align-self-center">
               <h1>
               Canada's Leading <br /> Microsoft Dynamics <br />Partner
               </h1>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="col-lg-6 hero-img hero-img-home"
+              className="col-lg-7 hero-img hero-img-home"
               data-aos="zoom-out"
               data-aos-delay="200"
             >
