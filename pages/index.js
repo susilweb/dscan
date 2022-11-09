@@ -55,17 +55,142 @@ export default function Home() {
         <meta name="twitter:description" content="Dynamics Square is CA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
 
-        <script
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context" : "http://schema.org",
+          "@type" : "Organization",
+          "name" : "Dynamics Square Canada Ltd.",
+          "description" : "Helping your business to grow at scale by providing unbiased advice to select the right ERP and CRM solutions.",
+          "image" : "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
+          "alternateName" : "Dynamics Square Software company in Ontario, Canada",
+          "telephone" : "+12898072802, +17786523656",
+          "email" : "info@dynamicssquare.com",
+          "address" : {
+          "@type" : "PostalAddress",
+          "streetAddress" : "800 Steeles Ave W",
+          "addressLocality" : "800 Steeles Ave W, #B10155 Thornhill, Ontario L4J 7L23E2",
+          "addressRegion" : "Ontario",
+          "addressCountry" : "Canada",
+          "postalCode" : "L4J 7L23E2"
+          },
+            "brand":{
+            "@type":"Brand",
+            "name":"Dynamics Square Canada Ltd.",
+            "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg"
+           },
+          "aggregateRating": 
+              {
+                "@type": "AggregateRating",
+              "ratingValue": "4.2",
+              "reviewCount": "18"
+            },
+          "url" : "https://www.dynamicssquare.ca/",
+          "sameAs" : [
+          "https://www.facebook.com/dynamicssquareca",
+          "https://twitter.com/dsquare_ca",
+          "https://www.linkedin.com/company/dynamics-square-canada/",
+          "https://www.youtube.com/c/DynamicsSquare"
+          ]
+          })
+           }}
+      />
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Corporation",
-          "name": "Dynamics Square",
-          "alternateName": "Dynamics Square Canada Testing",
-          "url": "https://www.dynamicssquare.ca/",
-          "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
-          "sameAs": "https://www.facebook.com/dynamicssquareusa"
-              })
+          "@type": "WebPage",
+          "Headline": "Assisting you in successfully leveraging the power of CRM, ERP, and cloud technology.",
+          "description": "You have a goal, a vision or an issue to address. We have 140+ Microsoft certified consultants, creative thinkers, and developers proactively ready to support in your digital transformation journey. Our mission is to alleviate your problems and make your vision a reality.",
+          "Keywords" :["erp consultants canada","crm consultancy","d365 business central","crm expert online","d365 for finance","dynamics crm implementation","d365 field service","crm implementation services"]
+      })
+           }}
+      />
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context" : "https://schema.org",
+          "@type" : "WebSite",
+          "name" : "Dynamics Square Canada Ltd.",
+          "alternateName" : "Dynamics Square Software company in Ontario, Canada",
+          "url" : "https://www.dynamicssquare.ca/"
+          })
+           }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context" : "http://schema.org",
+          "@type" : "localBusiness",
+          "name" : "Dynamics Square Canada Ltd.",
+          "description" : "Helping your business to grow at scale by providing unbiased advice to select the right ERP and CRM solutions.",
+          "image" : "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
+          "alternateName" : "Dynamics Square Software company in Ontario, Canada",
+          "telephone" : "+12898072802, +17786523656",
+          "email" : "info@dynamicssquare.com",
+          "priceRange": "$$$-$$$",
+          "address" : {
+          "@type" : "PostalAddress",
+          "streetAddress" : "800 Steeles Ave W",
+          "addressLocality" : "800 Steeles Ave W, #B10155 Thornhill, Ontario L4J 7L23E2",
+          "addressRegion" : "Ontario",
+          "addressCountry" : "Canada",
+          "postalCode" : "L4J 7L23E2"
+          },
+           "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 54.63996281303019, 
+                  "longitude": -103.34901546818584
+                },
+                
+            "brand":{
+            "@type":"Brand",
+            "name":"Dynamics Square Canada Ltd.",
+            "logo": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg"
+           },
+          "aggregateRating": 
+              {
+                "@type": "AggregateRating",
+                "ratingValue": "4.2",
+              "reviewCount": "18"
+            },
+              
+              "openingHoursSpecification": [
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednessday",
+                      "Thursday",
+                      "Friday"
+                    ],
+                    "opens": "08:00",
+                    "closes": "5:00"
+                  },
+                   {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Saturday - closed"
+                    
+                
+                  },
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Sunday - Closed"
+                  
+                  }
+                  ],
+              
+                
+          "url" : "https://www.dynamicssquare.ca/",
+          "sameAs" : [
+          "https://www.facebook.com/dynamicssquareca",
+          "https://twitter.com/dsquare_ca",
+          "https://www.linkedin.com/company/dynamics-square-canada/",
+          "https://www.youtube.com/c/DynamicsSquare"
+          ]
+          })
            }}
       />
       </Head>
