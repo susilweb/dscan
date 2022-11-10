@@ -56,6 +56,74 @@ export default function Home() {
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
 
 
+ <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.dynamicssquare.ca/#organization",
+                "name": "Dynamics Square",
+                "url": "https://www.dynamicssquare.ca/",
+                "sameAs": [
+                    "https://www.facebook.com/dynamicssquareca",
+                    "https://twitter.com/dsquare_ca",
+                    "https://www.linkedin.com/company/dynamics-square-canada/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.dynamicssquare.ca/#logo",
+                    "inLanguage": "en-US",
+                    "url": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
+                    "contentUrl": "https://www.dynamicssquare.ca/img/dynamicssqure-logo.svg",
+                    "width": "1024",
+                    "height": "1024",
+                    "caption": "Dynamics Square"
+                },
+                "image": { "@id": "https://www.dynamicssquare.ca/#logo" }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.dynamicssquare.ca/#website",
+                "url": "https://www.dynamicssquare.ca/",
+                "name": "Dynamics Square Canada | Microsoft Dynamics 365 and Cloud consultancy providing experts.",
+                "description": "We simplify your complex business processes and challenges by implementing cloud-based ERP, CRM and other Microsoft cloud solutions.",
+                "publisher": { "@id": "https://www.dynamicssquare.ca/#organization" },
+                "potentialAction": [{ "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://www.dynamicssquare.ca/?s={search_term_string}" }, "query-input": "required name=search_term_string" }],
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "hhttps://www.dynamicssquare.ca/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://www.dynamicssquare.ca/img/banner-head-image.png",
+                "contentUrl": "https://www.dynamicssquare.ca/img/banner-head-image.png",
+                "width": 1561,
+                "height": 667,
+                "caption": "dynamicssquare"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.dynamicssquare.ca/#webpage",
+                "url": "https://www.dynamicssquare.ca/",
+                "name": "Dedicated CRM and ERP Consultants for Canada Region | Dynamics Square",
+                "isPartOf": { "@id": "https://www.dynamicssquare.ca/#website" },
+                "about": { "@id": "https://www.dynamicssquare.ca/#organization" },
+                "primaryImageOfPage": { "@id": "https://www.dynamicssquare.ca/#primaryimage" },
+                "datePublished": "2022-08-31T06:09:16+00:00",
+                "dateModified": "2022-11-07T09:15:37+00:00",
+                "description": "We are CRM and ERP consultants in Canada who help your business thrive by implementing the best CRM, ERP, and Microsoft cloud solutions for your specific needs.",
+                "breadcrumb": { "@id": "https://www.dynamicssquare.ca/#breadcrumb" },
+                "inLanguage": "en-US",
+                "potentialAction": [{ "@type": "ReadAction", "target": ["https://www.dynamicssquare.ca/"] }]
+            },
+            { "@type": "BreadcrumbList", "@id": "https://www.dynamicssquare.ca/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }
+        ]
+      })
+           }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
