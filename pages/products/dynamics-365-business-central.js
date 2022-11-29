@@ -72,7 +72,7 @@ const BusinessCentral = () => {
               What is Dynamics 365 Business Central?
             </h2>
             <p>
-            Dynamics 365 Business Central or simply, Business Central is an all-in-one ERP software. Microsoft developed it to help SMBs and subsidiaries of large international groups to advance their growth, drive sustainability, and improve results.<br /><br />With Business Central, enterprises can effectively manage and optimize their sales, finance, services, operations, human resources, and other departments. D365 Business Central is an excellent fit for organizations seeking help in automating, accelerating, and simplifying their business processes to ensure maximized revenue outcomes and scalability.
+            Dynamics 365 Business Central or simply, Business Central is an all-in-one ERP software. Microsoft developed it to help SMBs and subsidiaries of large international groups to advance their growth, drive sustainability, and improve results.<br /><br />With Business Central, enterprises can effectively manage and optimize their sales, finance, services, operations, human resources, and other departments. Dynamics 365 Business Central is an excellent fit for organizations seeking help in automating, accelerating, and simplifying their business processes to ensure maximized revenue outcomes and scalability.
             </p>
           </header>
             </div>
@@ -85,7 +85,7 @@ const BusinessCentral = () => {
         <div className="col-lg-6 col-md-8">
         <header className="section-header">
             <h2>
-            Capabilities of  <br /> D365 Business Central 
+            Capabilities of  <br /> Dynamics 365 Business Central 
             </h2>
           </header>
           </div></div>
@@ -209,7 +209,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Fixed Assets</h4>
-                        <p>D365 Business Central provides total control over fixed assets and guarantees prompt reduction.</p>
+                        <p>Dynamics 365 Business Central provides total control over fixed assets and guarantees prompt reduction.</p>
                             </div>
                       </div>
                     </div>
@@ -231,7 +231,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Payable</h4>
-                        <p>Make payments, mark outgoing payments, and manage cheques with D365 BC.</p>
+                        <p>Make payments, mark outgoing payments, and manage cheques with Dynamics 365 BC.</p>
                             </div>
                       </div>
                     </div>
@@ -448,7 +448,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Order</h4>
-                          <p>D365 Business Central helps you manage all the purchase orders concerning the list of vendors.</p>
+                          <p>Dynamics 365 Business Central helps you manage all the purchase orders concerning the list of vendors.</p>
                         </div>
                       </div>
                     </div>
@@ -492,7 +492,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Combine Receipts on Single Invoice</h4>
-                          <p>D365 Business Central helps you merge various invoices from the same vendor into one.</p>
+                          <p>Dynamics 365 Business Central helps you merge various invoices from the same vendor into one.</p>
                         </div>
                       </div>
                     </div>
@@ -640,7 +640,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Transfer</h4>
-                          <p>Oversees the management of all transfer orders for moving inventory items between locations.</p>
+                          <p>Overseas the management of all transfer orders for moving inventory items between locations.</p>
                         </div>
                       </div>
                     </div>
@@ -721,7 +721,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Shipments</h4>
-                          <p>Oversees the sales order information as well as the record of shipped goods at the warehouse location.</p>
+                          <p>Overseas the sales order information as well as the record of shipped goods at the warehouse location.</p>
                         </div>
                       </div>
                     </div>
@@ -868,7 +868,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Supplies</h4>
-                          <p>Oversees the acquisition of all materials required for a project's completion and keeps track of both the work product and the time devoted to it.</p>
+                          <p>Overseas the acquisition of all materials required for a project's completion and keeps track of both the work product and the time devoted to it.</p>
                         </div>
                       </div>
                     </div>
@@ -971,7 +971,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Demand Forecasting</h4>
-                          <p>D365 Business Central helps your company with demand forecasts, capacity constraints, and material availability to boost sales and production.</p>
+                          <p>Dynamics 365 Business Central helps your company with demand forecasts, capacity constraints, and material availability to boost sales and production.</p>
                         </div>
                       </div>
                     </div>
@@ -1015,7 +1015,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Requisition Worksheet</h4>
-                          <p>Creates data automatically about the supply chain and mentions the demand for refilled items.</p>
+                          <p>Creates data automatically about the <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain</a></Link> and mentions the demand for refilled items.</p>
                         </div>
                       </div>
                     </div>
@@ -1026,7 +1026,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Calculate Work Centre Calendar</h4>
-                          <p>Whenever there is a sudden change in planning, D365 Business Central reschedules the work center calendar.</p>
+                          <p>Whenever there is a sudden change in planning, Dynamics 365 Business Central reschedules the work center calendar.</p>
                         </div>
                       </div>
                     </div>
@@ -1048,7 +1048,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Order</h4>
-                          <p>Create production orders manually or automatically with D365 Business Central in effortless ways.</p>
+                          <p>Create production orders manually or automatically with Dynamics 365 Business Central in effortless ways.</p>
                         </div>
                       </div>
                     </div>
@@ -1059,7 +1059,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Subcontracting</h4>
-                          <p>D365 Business Central helps decision makers to outsource the selected processes or operations to a subcontractor.</p>
+                          <p>Dynamics 365 Business Central helps decision makers to outsource the selected processes or operations to a subcontractor.</p>
                         </div>
                       </div>
                     </div>
@@ -1197,7 +1197,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Fixed Assets</h4>
-                        <p>D365 Business Central provides total control over fixed assets and guarantees prompt reduction.</p>
+                        <p>Dynamics 365 Business Central provides total control over fixed assets and guarantees prompt reduction.</p>
                             </div>
                       </div>
                     </div>
@@ -1219,7 +1219,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Payable</h4>
-                        <p>Make payments, mark outgoing payments, and manage cheques with D365 BC.</p>
+                        <p>Make payments, mark outgoing payments, and manage cheques with Dynamics 365 BC.</p>
                             </div>
                       </div>
                     </div>
@@ -1398,7 +1398,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Order</h4>
-                          <p>D365 Business Central helps you manage all the purchase orders concerning the list of vendors.</p>
+                          <p>Dynamics 365 Business Central helps you manage all the purchase orders concerning the list of vendors.</p>
                         </div>
                       </div>
                     </div>
@@ -1442,7 +1442,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Combine Receipts on Single Invoice</h4>
-                          <p>D365 Business Central helps you merge various invoices from the same vendor into one.</p>
+                          <p>Dynamics 365 Business Central helps you merge various invoices from the same vendor into one.</p>
                         </div>
                       </div>
                     </div>
@@ -1568,7 +1568,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Transfer</h4>
-                          <p>Oversees the management of all transfer orders for moving inventory items between locations.</p>
+                          <p>Overseas the management of all transfer orders for moving inventory items between locations.</p>
                         </div>
                       </div>
                     </div>
@@ -1627,7 +1627,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Shipments</h4>
-                          <p>Oversees the sales order information as well as the record of shipped goods at the warehouse location.</p>
+                          <p>Overseas the sales order information as well as the record of shipped goods at the warehouse location.</p>
                         </div>
                       </div>
                     </div>
@@ -1752,7 +1752,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Supplies</h4>
-                          <p>Oversees the acquisition of all materials required for a project's completion and keeps track of both the work product and the time devoted to it.</p>
+                          <p>Overseas the acquisition of all materials required for a project's completion and keeps track of both the work product and the time devoted to it.</p>
                         </div>
                       </div>
                     </div>
@@ -1833,7 +1833,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Demand Forecasting</h4>
-                          <p>D365 Business Central helps your company with demand forecasts, capacity constraints, and material availability to boost sales and production. </p>
+                          <p>Dynamics 365 Business Central helps your company with demand forecasts, capacity constraints, and material availability to boost sales and production. </p>
                         </div>
                       </div>
                     </div>
@@ -1877,7 +1877,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Requisition Worksheet</h4>
-                          <p>Creates data automatically about the supply chain and mentions the demand for refilled items.</p>
+                          <p>Creates data automatically about the <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain</a></Link> and mentions the demand for refilled items.</p>
                         </div>
                       </div>
                     </div>
@@ -1888,7 +1888,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Calculate Work Centre Calendar</h4>
-                          <p>Whenever there is a sudden change in planning, D365 Business Central reschedules the work center calendar.</p>
+                          <p>Whenever there is a sudden change in planning, Dynamics 365 Business Central reschedules the work center calendar.</p>
                         </div>
                       </div>
                     </div>
@@ -1910,7 +1910,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Order</h4>
-                          <p>Create production orders manually or automatically with D365 Business Central in effortless ways.</p>
+                          <p>Create production orders manually or automatically with Dynamics 365 Business Central in effortless ways.</p>
                         </div>
                       </div>
                     </div>
@@ -1921,7 +1921,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Subcontracting</h4>
-                          <p>D365 Business Central helps decision makers to outsource the selected processes or operations to a subcontractor.</p>
+                          <p>Dynamics 365 Business Central helps decision makers to outsource the selected processes or operations to a subcontractor.</p>
                         </div>
                       </div>
                     </div>
@@ -1980,7 +1980,7 @@ const BusinessCentral = () => {
                       Business Approach
                       </h3>
                       <div className="overlay">
-                        <p>With <Link href="microsoft-power-bi"><a>Power BI</a></Link> Automate, Power Apps, Power Virtual Agents, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
+                        <p>With <Link href="microsoft-power-bi"><a>Power BI</a></Link>, <Link href="microsoft-power-automate"><a>Power Automate</a></Link>, <Link href="microsoft-power-apps"><a>Power Apps</a></Link>, <Link href="microsoft-power-virtual-agents"><a>Power Virtual Agents</a></Link>, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -2015,7 +2015,7 @@ const BusinessCentral = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        D365 Business Central favors easy-to-customize capabilities, helping you address specific business needs. Small or small-to-mid market size  businesses can integrate Business Central with their existing systems and other Microsoft Business Apps.
+                        Dynamics 365 Business Central favors easy-to-customize capabilities, helping you address specific business needs. Small or small-to-mid market size  businesses can integrate Business Central with their existing systems and other <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Business Apps</a></Link>.
                         </p>
                       </div>
                     </div>
@@ -2119,7 +2119,7 @@ const BusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Business Central Services</h2>
-                <p>Any device, anywhere - deployment of Microsoft D365 Business Central is possible.</p>
+                <p>Any device, anywhere - deployment of Microsoft Dynamics 365 Business Central is possible.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -2186,7 +2186,7 @@ const BusinessCentral = () => {
         <div className="container">
           <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
-            <p>Take a look at D365 Business Central Pricing for Team Members, Essentials & Premium Plans</p>
+            <p>Take a look at Dynamics 365 Business Central Pricing for Team Members, Essentials & Premium Plans</p>
           </header>
           <div className="row gy-4">
             <div className="col-lg-4">
@@ -2342,36 +2342,7 @@ const BusinessCentral = () => {
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What is Dynamics 365 Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Business Central - an international enterprise resource planning (ERP) system from Microsoft Dynamics 365 product family. It is a complete business management solution for startups, small and mid-sized businesses (SMBs), and subsidiaries of large international groups.</p>
-                      <p>Organizations can streamline, automate, and manage business processes such as finance, manufacturing, customer relationship management, supply chains, analytics and e-Commerce operations using both its versions - an online hosted (SaaS) version or a cloud version and an on-premises version for manual deployment and administration.</p>
-                      <p><b>Features that make business central one of the best ERP software systems available today:</b></p>
-                      <ul>
-                        <li>Simple and flexible to use.</li>
-                        <li>Integration with other online Microsoft services and business apps - available in its online edition only.</li>
-                        <li>Availability of 24 official localizations for various countries and 47 additional localizations from local partners.</li>
-                        <li>Business Central comprises Microsoft Excel to help users start leveraging its capabilities for more connected and collaborated experiences.</li>
-                        <li>Ability to help organizations manage their end-to-end process flows - from finance and supply chain to warehousing to sales to reporting & analytics, and more.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+              
                 <div className="accordion-item">
                   <h3 className="accordion-header">
                     <button
@@ -2389,8 +2360,8 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                   <p>Dynamics 365 Business Central is an enhanced version of Dynamics NAV (better known as Navision). The Core functionalities of Business Central are like NAV. The difference lies in advanced features and navigations available with Business Central. D365 Business Central is designed to support today's and tomorrow's enterprises from various industries. Existing Dynamics NAV users can avail of support services but not mainstream support from Microsoft. ft.</p>
-                   <p>We, at Dynamics Square, offer reliable, cost-efficient NAV and Business Central Support Services. Let's discuss your business requirements.</p>
+                   <p>Dynamics 365 Business Central is an enhanced version of Dynamics NAV (better known as Navision). The Core functionalities of Business Central are like NAV. The difference lies in advanced features and navigations available with Business Central. Dynamics 365 Business Central is designed to support today's and tomorrow's enterprises from various industries. Existing Dynamics NAV users can avail of support services but not mainstream support from Microsoft. ft.</p>
+                   <p>We, at <a href="/">Dynamics Square</a>, offer reliable, cost-efficient NAV and Business Central Support Services. Let's discuss your business requirements.</p>
                     </div>
                   </div>
                 </div>
@@ -2412,7 +2383,7 @@ const BusinessCentral = () => {
                   >
                     <div className="accordion-body">
                       <p>If you are ready to upgrade your legacy systems like NAV to a cloud-based intelligent business application - Dynamics 365 Business Central, we're always a call away. Our team of Dynamics 365 experts and proficient consultants can help implement a highly configured solution for your business and fulfilling all your customized business needs.</p>
-                      <p>For more details or availing of our free system health check, get in touch with us today. We're always ready and happy to help!</p>
+                      <p>For more details or availing of our free system health check, <Link href="/contact-us/">get in touch with us today</Link>. We're always ready and happy to help!</p>
                     </div>
                   </div>
                 </div>
@@ -2461,7 +2432,7 @@ const BusinessCentral = () => {
                         <li>Premium - The premium plan asks you to pay $100 per user/per month.</li>
                         <li>Team Member - This plan is available at $8 per user/month.</li>
                       </ul>
-                      <p>Still not sure which plan would best suit your business, call our experts. They are always eager to extend help.</p>
+                      <p>Still not sure which plan would best suit your business, <Link href="/contact-us/"><a>call our experts</a></Link>. They are always eager to extend help.</p>
                     </div>
                   </div>
                 </div>
