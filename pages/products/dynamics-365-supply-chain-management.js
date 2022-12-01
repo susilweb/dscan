@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 const SupplyChainManagement = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -8,10 +9,10 @@ const SupplyChainManagement = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Supply Chain Management - Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Supply Chain Management in Canada</title>
         <meta
           name="description"
-          content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
+          content="Microsoft Dynamics 365 Supply Chain Management helps you simplify, streamline, and smartly accelerate your supply chain practices. Contact us for help."
         />
         <link
           rel="canonical"
@@ -65,7 +66,7 @@ const SupplyChainManagement = () => {
         <header className="section-header"> 
         <h2>What Is Dynamics 365 Supply Chain Management?</h2> 
         <p>Dynamics 365 Supply Chain Management is a cloud-based ERP solution designed and developed by Microsoft. It helps large and mid-sized organizations mitigate supply chain issues through automation and seamlessly accelerates process execution while continuously monitoring end-to-end supply chain practices, from inventory and warehouse operations to the distribution and flow of your goods and services.</p> 
-        <p>With D365 Supply Chain Implementation at your premises, you can quickly create an intelligent and resilient supply chain that can automatically react to challenges using real-time visibility, agile planning, and accuracy.</p> 
+        <p>With Dynamics 365 Supply Chain Implementation at your premises, you can quickly create an intelligent and resilient supply chain that can automatically react to challenges using real-time visibility, agile planning, and accuracy.  </p> 
        </header> 
       </div>
       </div> 
@@ -124,7 +125,7 @@ const SupplyChainManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Automate your demand planning & distribution practices using AI and make inventory decisions through the real-time and data-driven forecasting abilities of Dynamics 365 Supply Chain Management. This cloud-based ERP software helps you proactively derive resource allocation, streamline sales, and bring agility to your production line while eliminating stock-outs and overstocking.</p>
+                        <p>Automate your demand planning & <Link href="/products/microsoft-dynamics-365-ai/"><a>distribution practices using AI</a></Link> and make inventory decisions through the real-time and data-driven forecasting abilities of Dynamics 365 Supply Chain Management. This cloud-based ERP software helps you proactively derive resource allocation, streamline sales, and bring agility to your production line while eliminating stock-outs and overstocking.</p>
                       </div>
                     </div>
                   </div>
@@ -187,7 +188,7 @@ const SupplyChainManagement = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Create an agile manufacturing process highly configured with AI, IoT, and Mixed reality capabilities to streamline existing manufacturing & distribution systems and reduce error potentials.</p>
+                        <p>Create an agile manufacturing process highly configured with AI, <Link href="/products/azure-iot-internet-of-things/"><a>Azure IoT</a></Link>, and <Link href="/products/microsoft-dynamics-365/mixed-reality/"><a>Mixed reality capabilities</a></Link>  streamline existing manufacturing & distribution systems and reduce error potentials.</p>
                       </div>
                     </div>
                   </div>
@@ -266,7 +267,7 @@ const SupplyChainManagement = () => {
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
             <h2>Dynamics 365 Supply Chain Management Features</h2>
-            <h3>Build an intelligent and adaptable supply chain with a Microsoft ecosystem that empowers your business with real-time visibility, agile planning, and business continuity to face any challenge that comes your way.</h3>
+            <h3>Build an intelligent and adaptable supply chain with a <Link href="/products/microsoft-dynamics-365/"><a>Microsoft ecosystem that empowers your business</a></Link> with real-time visibility, agile planning, and business continuity to face any challenge that comes your way.</h3>
             </div>
               <div className="m-o-t m-o-t-b">
                 <a
@@ -368,7 +369,7 @@ const SupplyChainManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Supply Chain Management Services</h2>
-                <p>D365 Supply Chain Management solutions can power up your business and help achieve desired productivity & growth.</p>
+                <p>Dynamics Supply Chain Management solutions can power up your business and help achieve desired productivity & growth.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -522,29 +523,6 @@ const SupplyChainManagement = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What is D365 Supply Chain Management?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Dynamics 365 Supply Chain Management is an all-in-one SaaS ERP package that helps in simplifying and transforming supply chain operations for small and mid-sized businesses and large enterprises.</p>
-                      <p>This Microsoft SCM module is a powerful ERP solution that empowers your supply chain workforce with not just agile planning and logistics capabilities, but also offers you predictive insights and other real-time connectivity across your organization including production, planning, warehousing automation, and distribution to boost operational efficiency while maximizing profitability and scalability.</p>
-                      <p>Get in touch with our team to know more about how D365 Supply Chain Management solutions can help to improve and maximize your supply chain efficiency.</p>                  
-                  </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
                       How does D365 Supply Chain Management help manufacturers?
@@ -592,7 +570,7 @@ const SupplyChainManagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                      What are the key features of Dynamics 365 Supply Chain Management?
+                     What Dynamics 365 Supply Chain Management can help me with?
                     </button>
                   </h3>
                   <div
@@ -618,7 +596,7 @@ const SupplyChainManagement = () => {
                         <li>Transportation Management</li>
                         <li>Warehouse Management</li>
                       </ul>
-                      <p><b>Note:</b> Each of the above features can be configured fully or customized to meet your specific business needs. At Dynamics Square, we can implement a highly customized Supply Chain solution that meets the needs of your enterprise.</p>
+                      <p><b>Note:</b> Each of the above features can be configured fully or customized to meet your specific business needs. At <a href="/">Dynamics Square</a>, we can implement a highly customized Supply Chain solution that meets the needs of your enterprise.</p>
                     </div>
                   </div>
                 </div>
@@ -630,7 +608,7 @@ const SupplyChainManagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      How can D365 Supply Chain Management help me drive my business smarter?
+                      How can Dynamics Supply Chain Management help me drive my business smarter?
                     </button>
                   </h3>
                   <div
@@ -640,7 +618,7 @@ const SupplyChainManagement = () => {
                   >
                     <div className="accordion-body">
                      <p>You can automate your data and keep an update on every business flow, from inventory levels to warehousing practices, logistics demands and procurement to transportation management, and more.</p>
-                     <p>Contact Dynamics Square for immediate D365 Support or to learn more about how Supply Chain solutions can benefit your total Supply Chain pipeline and create doors for growth and new business opportunity while minimizing investment costs.</p>
+                     <p><Link href="/contact-us/"><a>Contact Dynamics Square for immediate D365 Support</a></Link> or to learn more about how Supply Chain solutions can benefit your total Supply Chain pipeline and create doors for growth and new business opportunity while minimizing investment costs.</p>
                     </div>
                   </div>
                 </div>
@@ -652,7 +630,7 @@ const SupplyChainManagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
                     >
-                     How much does it cost to implement Dynamics 365 Supply Chain Management?
+                    How much do I need to invest in implementing Dynamics 365 Supply Chain Management software? 
                     </button>
                   </h3>
                   <div
@@ -673,7 +651,7 @@ const SupplyChainManagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
                     >
-                     Can I customize or integrate my D365 Supply Chain Management?
+                    Can I customize or integrate my Dynamics 365 Supply Chain Management?
                     </button>
                   </h3>
                   <div
@@ -682,8 +660,8 @@ const SupplyChainManagement = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, Microsoft Dynamics 365 Supply Chain is very adaptable and customizable to your specific company requirements. It is built with numerous critical components/modules to support the operational flow of your supply chain. To address your specific supply chain demands and operational flow, you can request your implementation provider whether to implement all the modules or the ones you need.</p>
-                      <p>Moreover, you can also integrate D365 SCM with your existing system or other Microsoft business apps to allow your system to run in parallel while assuring a smoother flow in your operating environment. Dynamics Square can help you create, modify, and implement a system to meet your supply chain operating requirements.</p>
+                      <p>Yes, Microsoft Dynamics 365 Supply Chain is very adaptable and customizable to your specific company requirements. It is built with numerous critical components/modules to support the operational flow of your supply chain. To address your specific supply chain demands and operational flow, you can request your <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation partner</a></Link> to implement all the modules or the ones you need. </p>
+                      <p>Moreover, you can also integrate this SCM app with your existing system or other Microsoft business apps to allow your system to run in parallel while assuring a smoother flow in your operating environment. Dynamics Square can help you create, modify, and implement a system to meet your supply chain operating requirements.</p>
                     </div>
                   </div>
                 </div>

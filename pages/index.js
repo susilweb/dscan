@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import Spline from '@splinetool/react-spline';
 import Script from 'next/script'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -298,10 +298,12 @@ export default function Home() {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <img
+              <Image
                     src="/img/banner-head-image.png"
                     alt="business-center-logo"
                     className="icon"
+                    width={746}
+                    height={517}
                   />
               {/* <Spline className='nn' scene="https://prod.spline.design/mMw4apDfV4WLm7kV/scene.splinecode" />  */}
               {/* <div className="banner-service-wraper">

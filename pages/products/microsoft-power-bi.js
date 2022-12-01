@@ -8,16 +8,14 @@ const PowerBI = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Power BI Expert | Power BI Services &amp; Pricing
-        </title>
+        <title>Microsoft Power BI Expert | Power BI Services in Canada</title>
         <meta
           name="description"
           content="Power BI Expert: Use Microsoft Power BI data visualization tools to transform your data into actionable insights. Contact us for a free Power BI consultation &amp; services."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/products/microsoft-power-bi/"
+          href="Implement Microsoft Power BI for data visualization to strengthen your business decisions. Contact Dynamics Square for a free Power BI consultation."
         />     
       </Head>
       <ModalVideo

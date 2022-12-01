@@ -8,10 +8,10 @@ const Sales = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Sales | D365 Sales ERP Solution</title>
+        <title>Microsoft Dynamics 365 Sales: Best Cloud CRM Solution</title>
         <meta
           name="description"
-          content="Attract & engage potential customer base and connect & serve them in real-time with omnichannel efficiency. With Dynamics 365 for Sales, uplift your sales capabilities, improve your sales turnover, and drive profitability. "
+          content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now."
         />
         <link
           rel="canonical"
@@ -135,7 +135,7 @@ const Sales = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <p>The sales professional app is a modular app designed by Microsoft to empower your sales professionals and sales manager to seamlessly perform administration-related tasks by easily customizing tables, dashboards, forms, views, charts, and business processes without writing any code.</p>
+                      <p>The sales professional app is a modular app designed by Microsoft to empower your sales professionals and sales manager to seamlessly perform administration-related tasks by easily customizing tables, dashboards, forms, views, charts, and <Link href="/products/microsoft-power-platform/"><a>manage business processes without writing any code.</a></Link></p>
                      <p><b>Remember:</b> To take advantage of this app, you must have any of three licenses - Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.</p>
                       </div>
                     </div>
@@ -177,7 +177,7 @@ const Sales = () => {
                       Customer Experience
                       </h3>
                       <div className="overlay">
-                        <p>Using in-the-moment insights from this cloud-based sales management solution, you can establish strong relationships with your customers and create new opportunities in the times of disruptive market changes.</p>
+                        <p>Using in-the-moment insights from this <Link href="/products/microsoft-dynamics-365-marketing/"><a>cloud-based sales management solution</a></Link>, you can establish strong relationships with your customers and create new opportunities in the times of disruptive market changes. </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -208,7 +208,7 @@ const Sales = () => {
                       Decision-Making
                       </h3>
                       <div className="overlay">
-                        <p>Automate your sales practices, empower your sales workforce with D365 Sales' data intelligence, and access in-depth sales analytics in real-time to maximize your growth potential.</p>
+                        <p><Link href="/products/microsoft-power-automate/"><a>Automate your sales practices</a></Link>, empower your sales workforce with Dynamics 365 Sales' data intelligence, and access in-depth sales analytics in real-time to maximize your growth potential. </p>
                       </div>
                     </div>
                   </div>
@@ -254,7 +254,7 @@ const Sales = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Dynamics 365 Sales Service</h2>
-                <p>You can rely on us for complete implementation, upgrade, and support services for Dynamics 365 Sales.</p>
+                <p>You can rely on us for complete implementation, upgrade, and <Link href="/our-services/dynamics-365-support-services/"><a> support services for Dynamics 365 Sales</a></Link>.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -410,27 +410,7 @@ const Sales = () => {
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What Is Microsoft Dynamics 365 Sales?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                     <p>Microsoft Dynamics 365 Sales helps you accelerate your revenue through an AI-driven approach. This sales management application can effectively manage your sales campaigns using actionable insights and modern customer management facilitation. It also helps you automate their sales or customer data for better customer engagement and navigate the right ones at the right time to close the deals. Using any device, whether desktop, mobile, or tablet, you can proactively accelerate your sales and drive profitability by connecting customers to your sales team.</p>
-                    </div>
-                  </div>
-                </div>
+          
                 <div className="accordion-item">
                   <h3 className="accordion-header">
                     <button
@@ -449,7 +429,6 @@ const Sales = () => {
                   >
                     <div className="accordion-body">
                       <p>Dynamics 365 Sales is a powerful sales management software application that comes integrated with AI capabilities. It allows salespeople and sales managers to access and leverage actionable sales insights, customer data, and other key analytics to connect and engage existing and potential customers in real time.</p>
-                      <p>Dynamics 365 Sales is a powerful sales management software application that comes integrated with AI capabilities. It allows salespeople and sales managers to access and leverage actionable sales insights, customer data, and other key analytics to connect and engage existing and potential customers in real time.Enterprises can have customized solutions based on their needs.Dynamics 365 Sales enables your sales teams to make correct choices, and help customers with effective team collaboration, which ultimately boosts campaign success.</p>
                       <p>Drop us a line to get a demo of how to use Dynamics 365 Sales or how it can improve your marketing practices. We are all ears!</p>
                     </div>
                   </div>
@@ -471,7 +450,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Enterprises can use Microsoft Dynamics 365 to manage their end-to-end sales processes, automate their data, improve client experience, and eventually boost revenue generation. This sales management tool assists businesses in streamlining their sales and customer data, engaging clients when they are in need, and serving them a customized but high-quality offer.</p>
+                      <p>Enterprises can use <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> to manage their end-to-end sales processes, automate their data, improve client experience, and eventually boost revenue generation. This sales management tool assists businesses in streamlining their sales and customer data, engaging clients when they are in need, and serving them a customized but high-quality offer.</p>
                       <p>Dynamics 365 sales include pre-configured sales analytics that enables everyone involved in your sales campaigns to make effective decisions and drive productivity. Let us know if you want to see how Dynamics 365 can help you boost your sales, win new customers, and quickly complete transactions. Our experts can reveal to you an ideal sales management solution for your organization.</p>
                     </div>
                   </div>
@@ -493,7 +472,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>For the Dynamics Sales Enterprise plan, Dynamics 365 Sales is set to be executed both on-premises and in the Azure cloud. When it comes to implementing a Sales Professional plan, only on-cloud facilitation is available.</p>
+                     <p>For the Dynamics Sales Enterprise plan, Dynamics 365 Sales is set to be executed both on-premises and in the <Link href="/products/azure-iot-internet-of-things/"><a>Azure cloud</a></Link>. When it comes to implementing a Sales Professional plan, only on-cloud facilitation is available.</p>
                     </div>
                   </div>
                 </div>
@@ -516,7 +495,7 @@ const Sales = () => {
                     <div className="accordion-body">
                       <p>You can transform your complete sales model with Dynamics 365 Sales. It allows you to enhance and elevate your digital sales experience. You also encourage collaboration among sales teams and engage real-time customers. Dynamics 365 Sales' centralized data allows you to collaborate and process the same customer data in real time, which ultimately helps you to streamline and accelerate sales.</p>
                       <p>Since Dynamics 365 sales eliminate the need for manual data processing and tedious activities, instant sales reports and other actionable insights enable everyone on the sales team to make wise decisions.</p>
-                      <p>When you and your sales team have access to real-time sales information and customer behavior, converting leads and closing more deals becomes quicker. ales managers can also monitor and control the sales processes by providing legit recommendations.</p>
+                      <p>When you and your sales team have access to real-time sales information and customer behavior, converting leads and closing more deals becomes quicker. Sales managers can also monitor and control the sales processes by providing legit recommendations.</p>
                     </div>
                   </div>
                 </div>

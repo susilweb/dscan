@@ -16,7 +16,7 @@ const BusinessCentral = () => {
         <>
         <Head>
         <title>
-        Dynamics 365 Business Central Partner | Dynamics Square
+        Dynamics 365 Business Central: A Cloud ERP App for SMBs | Dynamics Square
         </title>
         <meta
           name="description"

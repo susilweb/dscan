@@ -2968,6 +2968,7 @@ section {
   width: 100%;
   height: 100%;
   align-items: center;
+  position:relative
 }
 .modal-video-effect-exit,
 .why-solution-wrapper .why-solution-wrapper-inner:hover h3 {
