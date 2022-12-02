@@ -14,6 +14,7 @@ const SupplyChainManagement = () => {
           name="description"
           content="Microsoft Dynamics 365 Supply Chain Management helps you simplify, streamline, and smartly accelerate your supply chain practices. Contact us for help."
         />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/dynamics-365-supply-chain-management/"

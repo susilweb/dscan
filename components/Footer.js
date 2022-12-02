@@ -375,39 +375,39 @@ const Footer = () =>{
                 <p>CONNECT WITH US</p>
 
                 <div className="social-links mt-3">
-                  <a
-                    target="_blank"
-                    rel=""
-                    href="https://twitter.com/dsquare_usa"
-                    className="twitter"
-                  >
-                    <i className="bi bi-twitter"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel=""
-                    href="https://www.facebook.com/dynamicssquareusa"
-                    className="facebook"
-                  >
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel=""
-                    href="https://www.youtube.com/c/DynamicsSquare"
-                    className="instagram"
-                  >
-                    <i className="bi bi-youtube"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel=""
-                    href="https://www.linkedin.com/showcase/dynamics-square-usa/"
-                    className="linkedin"
-                  >
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
+                    <a
+                      target="_blank"
+                      rel=""
+                      href="https://twitter.com/dsquare_ca"
+                      className="twitter"
+                    >
+                      <i className="bi bi-twitter"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      rel=""
+                      href="https://www.facebook.com/dynamicssquareca"
+                      className="facebook"
+                    >
+                      <i className="bi bi-facebook"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      rel=""
+                      href="https://www.youtube.com/c/DynamicsSquare"
+                      className="instagram"
+                    >
+                      <i className="bi bi-youtube"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      rel=""
+                      href="https://www.linkedin.com/company/dynamics-square-canada/"
+                      className="linkedin"
+                    >
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
                 <br />
                 <div className="subbb">
                   <p>Subscribe Newsletter</p>
@@ -427,7 +427,7 @@ const Footer = () =>{
             <div className="footer-extra-link">
               <a href="/terms-of-use/">Terms of Use </a>
               <a href="/cookie-policy/">| Cookie </a>
-              <a href="/sitemap.xml">| Sitemap</a>
+              {/* <a href="/sitemap.xml">| Sitemap</a> */}
             </div>
           </div>
         </div>

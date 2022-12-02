@@ -26,6 +26,7 @@ const BusinessCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/dynamics-365-business-central/"
         />
+        <meta name="robots" content="index,follow" />
         </Head>
          <ModalVideo
         channel="youtube"

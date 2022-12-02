@@ -17,6 +17,7 @@ const Sales = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-sales/"
         />
+         <meta name="robots" content="index,follow" />
         
       </Head>
       <ModalVideo

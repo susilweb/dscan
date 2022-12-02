@@ -813,7 +813,7 @@ const ContactUs = () => {
                     <a
                       target="_blank"
                       rel=""
-                      href="https://twitter.com/dsquare_usa"
+                      href="https://twitter.com/dsquare_ca"
                       className="twitter"
                     >
                       <i className="bi bi-twitter"></i>
@@ -821,7 +821,7 @@ const ContactUs = () => {
                     <a
                       target="_blank"
                       rel=""
-                      href="https://www.facebook.com/dynamicssquareusa"
+                      href="https://www.facebook.com/dynamicssquareca"
                       className="facebook"
                     >
                       <i className="bi bi-facebook"></i>
@@ -837,7 +837,7 @@ const ContactUs = () => {
                     <a
                       target="_blank"
                       rel=""
-                      href="https://www.linkedin.com/showcase/dynamics-square-usa/"
+                      href="https://www.linkedin.com/company/dynamics-square-canada/"
                       className="linkedin"
                     >
                       <i className="bi bi-linkedin"></i>
@@ -862,7 +862,7 @@ const ContactUs = () => {
               <div className="footer-extra-link">
                 <a href="/terms-of-use/">Terms of Use </a>
                 <a href="/cookie-policy/">| Cookie </a>
-                <a href="/sitemap.xml">| Sitemap</a>
+                {/* <a href="/sitemap.xml">| Sitemap</a> */}
               </div>
             </div>
           </div>
