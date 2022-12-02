@@ -16,11 +16,11 @@ const BusinessCentral = () => {
         <>
         <Head>
         <title>
-        Dynamics 365 Business Central: A Cloud ERP App for SMBs | Dynamics Square
+        Dynamics 365 Business Central: A Cloud ERP App for SMBs 
         </title>
         <meta
           name="description"
-          content="Automate and manage your end-to-end business processes seamlessly with Dynamics 365 Business Central - A unified business management solution for small business."
+          content="Automate, manage your all business operations seamlessly with Dynamics 365 Business Central. Get in touch with Dynamics Square for implementation help."
         />
         <link
           rel="canonical"
