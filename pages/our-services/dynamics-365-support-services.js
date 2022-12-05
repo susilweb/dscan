@@ -9,7 +9,7 @@ const SupportServices = () => {
         </title>
         <meta
           name="description"
-          content="Looking for Microsoft Dynamics 365 Support &amp; Service partner? Get Dynamics 365 CRM &amp; ERP support service plans at Dynamics Square. Do call us Today!"
+          content="Looking for Microsoft Dynamics 365 Support and Service partner? Get Dynamics 365 CRM &amp; ERP support service plans at Dynamics Square. Do call us Today!"
         />
            <meta name="robots" content="noindex,nofollow" />
         <link
